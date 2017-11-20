@@ -11,15 +11,14 @@
   <genPackages prefix="Couscous" disposableProviderFactory="true" ecorePackage="couscous.ecore#/">
     <genClasses ecoreClass="couscous.ecore#//Composant">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Composant/bindingcomp"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Composant/portcomposant"/>
     </genClasses>
     <genClasses ecoreClass="couscous.ecore#//Connecteur">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Connecteur/glue"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Connecteur/interfacefournie"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Connecteur/interfacerequise"/>
     </genClasses>
-    <genClasses ecoreClass="couscous.ecore#//Rôle">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Rôle/interface"/>
-    </genClasses>
+    <genClasses ecoreClass="couscous.ecore#//Rôle"/>
     <genClasses ecoreClass="couscous.ecore#//Port"/>
     <genClasses ecoreClass="couscous.ecore#//PortComposant"/>
     <genClasses ecoreClass="couscous.ecore#//PortRequis">
@@ -31,31 +30,32 @@
     <genClasses ecoreClass="couscous.ecore#//Attachement"/>
     <genClasses ecoreClass="couscous.ecore#//AttachementFtoR">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//AttachementFtoR/portfournis"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//AttachementFtoR/rolerequis"/>
     </genClasses>
     <genClasses ecoreClass="couscous.ecore#//AttachementRtoF">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//AttachementRtoF/portrequis"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//AttachementRtoF/rolefourni"/>
     </genClasses>
-    <genClasses ecoreClass="couscous.ecore#//RoleFourni"/>
-    <genClasses ecoreClass="couscous.ecore#//RoleRequis"/>
+    <genClasses ecoreClass="couscous.ecore#//RoleFourni">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//RoleFourni/attachementrtof"/>
+    </genClasses>
+    <genClasses ecoreClass="couscous.ecore#//RoleRequis">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//RoleRequis/attachementftor"/>
+    </genClasses>
     <genClasses ecoreClass="couscous.ecore#//Interface">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Interface/rôle"/>
     </genClasses>
     <genClasses ecoreClass="couscous.ecore#//InterfaceFournie">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//InterfaceFournie/To"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//InterfaceFournie/connecteur"/>
     </genClasses>
     <genClasses ecoreClass="couscous.ecore#//InterfaceRequise">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//InterfaceRequise/From"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//InterfaceRequise/connecteur"/>
     </genClasses>
     <genClasses ecoreClass="couscous.ecore#//Glue">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Glue/connecteur"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Glue/interfacefournie"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Glue/interfacerequise"/>
     </genClasses>
-    <genClasses ecoreClass="couscous.ecore#//PortConfiguration">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//PortConfiguration/configuration"/>
-    </genClasses>
+    <genClasses ecoreClass="couscous.ecore#//PortConfiguration"/>
     <genClasses ecoreClass="couscous.ecore#//Configuration">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference couscous.ecore#//Configuration/composant"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Configuration/bindingconf"/>
