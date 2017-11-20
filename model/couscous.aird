@@ -24,6 +24,17 @@
             <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
           </endLabelStyleDescription>
         </computedStyleDescriptions>
+        <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_5pNSsM4REeehV9UQNUCJVQ" sourceArrow="InputArrow" routingStyle="manhattan">
+          <strokeColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <beginLabelStyleDescription xmi:type="style:BeginLabelStyleDescription" xmi:id="_5pNSsc4REeehV9UQNUCJVQ" showIcon="false" labelExpression="service:renderEOpposite">
+            <labelFormat>bold</labelFormat>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </beginLabelStyleDescription>
+          <endLabelStyleDescription xmi:type="style:EndLabelStyleDescription" xmi:id="_5pNSss4REeehV9UQNUCJVQ" showIcon="false" labelExpression="service:render">
+            <labelFormat>bold</labelFormat>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </endLabelStyleDescription>
+        </computedStyleDescriptions>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_iI8VUMiKEee_E4FvZPRKKA" source="GMF_DIAGRAMS">
@@ -847,14 +858,17 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dgg0kM4PEeeea5M94EPMpQ" sourceNode="_kaYr4M4OEeeea5M94EPMpQ" targetNode="_qAO6EM4OEeeea5M94EPMpQ" beginLabel="[0..1] configuration" endLabel="[0..1] bindingconf">
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dgg0kM4PEeeea5M94EPMpQ" sourceNode="_kaYr4M4OEeeea5M94EPMpQ" targetNode="_qAO6EM4OEeeea5M94EPMpQ" beginLabel="[1..1] configuration" endLabel="[1..*] bindingconf">
       <target xmi:type="ecore:EReference" href="couscous.ecore#//Configuration/bindingconf"/>
       <semanticElements xmi:type="ecore:EReference" href="couscous.ecore#//Configuration/bindingconf"/>
       <semanticElements xmi:type="ecore:EReference" href="couscous.ecore#//Binding/configuration"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_dgj34M4PEeeea5M94EPMpQ" sourceArrow="InputArrow" routingStyle="manhattan" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='Bi-directional%20EC_EReference%20']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_dgj34c4PEeeea5M94EPMpQ" showIcon="false"/>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_dgj34s4PEeeea5M94EPMpQ" showIcon="false"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_5pN5wM4REeehV9UQNUCJVQ" description="_5pNSsM4REeehV9UQNUCJVQ" sourceArrow="InputArrow" routingStyle="manhattan" strokeColor="0,0,0">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_5pN5wc4REeehV9UQNUCJVQ" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </beginLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_5pN5ws4REeehV9UQNUCJVQ" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='Bi-directional%20EC_EReference%20']"/>
     </ownedDiagramElements>
