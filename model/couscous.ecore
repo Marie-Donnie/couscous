@@ -2,8 +2,6 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="couscous" nsURI="http://www.example.org/couscous" nsPrefix="couscous">
   <eClassifiers xsi:type="ecore:EClass" name="Composant">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="bindingcomp" upperBound="-1"
-        eType="#//Binding" eOpposite="#//Binding/composant"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="portcomposant" lowerBound="1"
         upperBound="-1" eType="#//PortComposant"/>
   </eClassifiers>
@@ -16,25 +14,32 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Rôle"/>
   <eClassifiers xsi:type="ecore:EClass" name="Port"/>
-  <eClassifiers xsi:type="ecore:EClass" name="PortComposant" eSuperTypes="#//Port"/>
-  <eClassifiers xsi:type="ecore:EClass" name="PortRequis" eSuperTypes="#//PortComposant">
+  <eClassifiers xsi:type="ecore:EClass" name="PortComposant" eSuperTypes="#//Port">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="binding" lowerBound="1"
+        eType="#//Binding" eOpposite="#//Binding/portcomposant"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PortRComposant" eSuperTypes="#//PortComposant">
     <eStructuralFeatures xsi:type="ecore:EReference" name="attachementrtof" upperBound="-1"
         eType="#//AttachementRtoF" eOpposite="#//AttachementRtoF/portrequis"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bindingconfigtocompo" lowerBound="1"
+        eType="#//BindingConfigToCompo" eOpposite="#//BindingConfigToCompo/portrcomposant"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="PortFournis" eSuperTypes="#//PortComposant">
+  <eClassifiers xsi:type="ecore:EClass" name="PortFComposant" eSuperTypes="#//PortComposant">
     <eStructuralFeatures xsi:type="ecore:EReference" name="attachementftor" upperBound="-1"
         eType="#//AttachementFtoR" eOpposite="#//AttachementFtoR/portfournis"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bindingcompotoconfig" lowerBound="1"
+        eType="#//BindingCompoToConfig" eOpposite="#//BindingCompoToConfig/portfcomposant"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Attachement"/>
   <eClassifiers xsi:type="ecore:EClass" name="AttachementFtoR" eSuperTypes="#//Attachement">
     <eStructuralFeatures xsi:type="ecore:EReference" name="portfournis" lowerBound="1"
-        eType="#//PortFournis" eOpposite="#//PortFournis/attachementftor"/>
+        eType="#//PortFComposant" eOpposite="#//PortFComposant/attachementftor"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="rolerequis" lowerBound="1"
         eType="#//RoleRequis" eOpposite="#//RoleRequis/attachementftor"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AttachementRtoF" eSuperTypes="#//Attachement">
     <eStructuralFeatures xsi:type="ecore:EReference" name="portrequis" lowerBound="1"
-        eType="#//PortRequis" eOpposite="#//PortRequis/attachementrtof"/>
+        eType="#//PortRComposant" eOpposite="#//PortRComposant/attachementrtof"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="rolefourni" lowerBound="1"
         eType="#//RoleFourni" eOpposite="#//RoleFourni/attachementrtof"/>
   </eClassifiers>
@@ -64,20 +69,43 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="interfacerequise" lowerBound="1"
         eType="#//InterfaceRequise" eOpposite="#//InterfaceRequise/From"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="PortConfiguration" eSuperTypes="#//Port"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PortConfiguration" eSuperTypes="#//Port">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="binding" lowerBound="1"
+        eType="#//Binding" eOpposite="#//Binding/portconfiguration"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Configuration" eSuperTypes="#//Composant">
     <eStructuralFeatures xsi:type="ecore:EReference" name="composant" lowerBound="1"
         upperBound="-1" eType="#//Composant" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="bindingconf" upperBound="-1"
-        eType="#//Binding" eOpposite="#//Binding/configuration"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="portconfiguration" lowerBound="1"
         upperBound="-1" eType="#//PortConfiguration"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connecteur" upperBound="-1"
+        eType="#//Connecteur" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Binding">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="configuration" lowerBound="1"
-        eType="#//Configuration" eOpposite="#//Configuration/bindingconf"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="composant" lowerBound="1"
-        eType="#//Composant" eOpposite="#//Composant/bindingcomp"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="portconfiguration" lowerBound="1"
+        eType="#//PortConfiguration" eOpposite="#//PortConfiguration/binding"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="portcomposant" lowerBound="1"
+        eType="#//PortComposant" eOpposite="#//PortComposant/binding"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ComposantSimple" eSuperTypes="#//Composant"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Service"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ServiceConfiguration" eSuperTypes="#//Service"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ServiceComposant" eSuperTypes="#//Service"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PortRConfiguration" eSuperTypes="#//PortConfiguration"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PortFConfiguration" eSuperTypes="#//PortConfiguration">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bindingconfigtocompo" lowerBound="1"
+        eType="#//BindingConfigToCompo" eOpposite="#//BindingConfigToCompo/portfconfiguration"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BindingCompoToConfig" eSuperTypes="#//Binding">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="portfcomposant" lowerBound="1"
+        eType="#//PortFComposant" eOpposite="#//PortFComposant/bindingcompotoconfig"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="portrconfiguration" lowerBound="1"
+        eType="#//PortRConfiguration"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BindingConfigToCompo" eSuperTypes="#//Binding">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="portrcomposant" lowerBound="1"
+        eType="#//PortRComposant" eOpposite="#//PortRComposant/bindingconfigtocompo"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="portfconfiguration" lowerBound="1"
+        eType="#//PortFConfiguration" eOpposite="#//PortFConfiguration/bindingconfigtocompo"/>
+  </eClassifiers>
 </ecore:EPackage>
