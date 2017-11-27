@@ -3,11 +3,16 @@
   <viewpoint:DAnalysis xmi:id="_hVUgAMiKEee_E4FvZPRKKA" selectedViews="_iAuNcMiKEee_E4FvZPRKKA" version="12.0.0.201704271200">
     <semanticResources>couscous.ecore</semanticResources>
     <semanticResources>couscous.genmodel</semanticResources>
+    <semanticResources>ClientServer.ecore</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_iAuNcMiKEee_E4FvZPRKKA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_iIXtkMiKEee_E4FvZPRKKA" name="couscous" repPath="#_iITcIMiKEee_E4FvZPRKKA">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="couscous.ecore#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_6o-YQNOQEee9vctXHnpZhw" name="clientserver" repPath="#_6o9xMNOQEee9vctXHnpZhw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+        <target xmi:type="ecore:EPackage" href="ClientServer.ecore#/"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
@@ -1929,5 +1934,21 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <target xmi:type="ecore:EPackage" href="couscous.ecore#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_6o9xMNOQEee9vctXHnpZhw" name="clientserver">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_6o9xMdOQEee9vctXHnpZhw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_6o9xMtOQEee9vctXHnpZhw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_6o-YQdOQEee9vctXHnpZhw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_6o-YQtOQEee9vctXHnpZhw" type="Sirius" element="_6o9xMNOQEee9vctXHnpZhw" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_6o-YQ9OQEee9vctXHnpZhw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_6o9xNNOQEee9vctXHnpZhw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+    <target xmi:type="ecore:EPackage" href="ClientServer.ecore#/"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
