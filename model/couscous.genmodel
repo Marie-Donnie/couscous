@@ -11,6 +11,7 @@
   <genPackages prefix="Couscous" disposableProviderFactory="true" ecorePackage="couscous.ecore#/">
     <genClasses ecoreClass="couscous.ecore#//Composant">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Composant/portcomposant"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Composant/servicecomposant"/>
     </genClasses>
     <genClasses ecoreClass="couscous.ecore#//Connecteur">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Connecteur/glue"/>
@@ -65,6 +66,7 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference couscous.ecore#//Configuration/composant"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Configuration/portconfiguration"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference couscous.ecore#//Configuration/connecteur"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Configuration/serviceconfiguration"/>
     </genClasses>
     <genClasses ecoreClass="couscous.ecore#//Binding">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//Binding/portconfiguration"/>
@@ -86,5 +88,9 @@
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//BindingConfigToCompo/portrcomposant"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference couscous.ecore#//BindingConfigToCompo/portfconfiguration"/>
     </genClasses>
+    <genClasses ecoreClass="couscous.ecore#//ServiceFComposant"/>
+    <genClasses ecoreClass="couscous.ecore#//ServiceRComposant"/>
+    <genClasses ecoreClass="couscous.ecore#//ServiceFConfiguration"/>
+    <genClasses ecoreClass="couscous.ecore#//ServiceRConfiguration"/>
   </genPackages>
 </genmodel:GenModel>
