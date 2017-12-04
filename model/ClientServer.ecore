@@ -114,7 +114,6 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="connectiontodatabase" upperBound="-1"
         eType="#//ConnectionToDatabase" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="NewEClass24"/>
   <eClassifiers xsi:type="ecore:EClass" name="ConnectionManager" eSuperTypes="couscous.ecore#//Composant">
     <eStructuralFeatures xsi:type="ecore:EReference" name="portconnectionmanager"
         eType="#//PortConnectionManager"/>
@@ -319,7 +318,6 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="interfacefctd" eType="#//InterfaceFCtD"
         eOpposite="#//InterfaceFCtD/gluectd"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="NewEClass71"/>
   <eClassifiers xsi:type="ecore:EClass" name="RoleRDtC" eSuperTypes="couscous.ecore#//RoleRequis">
     <eStructuralFeatures xsi:type="ecore:EReference" name="interfacerdtc" eType="#//InterfaceRDtC"
         eOpposite="#//InterfaceRDtC/rolerdtc"/>
