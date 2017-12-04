@@ -182,10 +182,16 @@
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceRStC" eSuperTypes="couscous.ecore#//InterfaceRequise">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluestc" eType="#//GlueStC"
         eOpposite="#//GlueStC/interfacerstc"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolerstc" eType="#//RoleRStC"
+        eOpposite="#//RoleRStC/interfacerstc"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceFStC" eSuperTypes="couscous.ecore#//InterfaceFournie">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluestc" eType="#//GlueStC"
         eOpposite="#//GlueStC/interfacefstc"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolefstd" eType="#//RoleFStD"
+        eOpposite="#//RoleFStD/interfacefstc"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolefstc" eType="#//RoleFStC"
+        eOpposite="#//RoleFStC/interfacefstc"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceFStD" eSuperTypes="couscous.ecore#//InterfaceFournie">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluestd" eType="#//GlueStD"
@@ -194,35 +200,54 @@
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceRStD" eSuperTypes="couscous.ecore#//InterfaceRequise">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluestd" eType="#//GlueStD"
         eOpposite="#//GlueStD/interfacerstd"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolerstd" eType="#//RoleRStD"
+        eOpposite="#//RoleRStD/interfacerstd"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="InterfaceRDtS" eSuperTypes="couscous.ecore#//InterfaceRequise"/>
+  <eClassifiers xsi:type="ecore:EClass" name="InterfaceRDtS" eSuperTypes="couscous.ecore#//InterfaceRequise">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolerdts" eType="#//RoleRDtS"
+        eOpposite="#//RoleRDtS/interfacerdts"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceRDtC" eSuperTypes="couscous.ecore#//InterfaceRequise">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluedtc" eType="#//GlueDtC"
         eOpposite="#//GlueDtC/interfacerdtc"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolerdtc" eType="#//RoleRDtC"
+        eOpposite="#//RoleRDtC/interfacerdtc"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceRCtS" eSuperTypes="couscous.ecore#//InterfaceRequise">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluects" eType="#//GlueCtS"
         eOpposite="#//GlueCtS/interfacercts"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolercts" eType="#//RoleRCtS"
+        eOpposite="#//RoleRCtS/interfacercts"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceRCtD" eSuperTypes="couscous.ecore#//InterfaceRequise">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluectd" eType="#//GlueCtD"
         eOpposite="#//GlueCtD/interfacerctd"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolerctd" eType="#//RoleRCtD"
+        eOpposite="#//RoleRCtD/interfacerctd"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceFDtS" eSuperTypes="couscous.ecore#//InterfaceFournie">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluedts" eType="#//GlueDtS"
         eOpposite="#//GlueDtS/interfacefdts"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolefdts" eType="#//RoleFDtS"
+        eOpposite="#//RoleFDtS/interfacefdts"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceFDtC" eSuperTypes="couscous.ecore#//InterfaceFournie">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluedtc" eType="#//GlueDtC"
         eOpposite="#//GlueDtC/interfacefdtc"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolefdtc" eType="#//RoleFDtC"
+        eOpposite="#//RoleFDtC/interfacefdtc"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceFCtS" eSuperTypes="couscous.ecore#//InterfaceFournie">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluects" eType="#//GlueCtS"
         eOpposite="#//GlueCtS/interfacefcts"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolefcts" eType="#//RoleFCtS"
+        eOpposite="#//RoleFCtS/interfacefcts"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceFCtD" eSuperTypes="couscous.ecore#//InterfaceFournie">
     <eStructuralFeatures xsi:type="ecore:EReference" name="gluectd" eType="#//GlueCtD"
         eOpposite="#//GlueCtD/interfacefctd"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rolefctd" eType="#//RoleFCtD"
+        eOpposite="#//RoleFCtD/interfacefctd"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="GlueStC" eSuperTypes="couscous.ecore#//Glue">
     <eStructuralFeatures xsi:type="ecore:EReference" name="interfacerstc" eType="#//InterfaceRStC"
@@ -259,18 +284,54 @@
         eOpposite="#//InterfaceFCtD/gluectd"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="NewEClass71"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleRDtC" eSuperTypes="couscous.ecore#//RoleRequis"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleRStD" eSuperTypes="couscous.ecore#//RoleRequis"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleRDtS" eSuperTypes="couscous.ecore#//RoleRequis"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleRStC" eSuperTypes="couscous.ecore#//RoleRequis"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleRCtS" eSuperTypes="couscous.ecore#//RoleRequis"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleRCtD" eSuperTypes="couscous.ecore#//RoleRequis"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleFDtC" eSuperTypes="couscous.ecore#//RoleFourni"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleFDtS" eSuperTypes="couscous.ecore#//RoleFourni"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleFStD" eSuperTypes="couscous.ecore#//RoleFourni"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleFStC" eSuperTypes="couscous.ecore#//RoleFourni"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleFCtS" eSuperTypes="couscous.ecore#//RoleFourni"/>
-  <eClassifiers xsi:type="ecore:EClass" name="RoleFCtD" eSuperTypes="couscous.ecore#//RoleFourni"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleRDtC" eSuperTypes="couscous.ecore#//RoleRequis">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacerdtc" eType="#//InterfaceRDtC"
+        eOpposite="#//InterfaceRDtC/rolerdtc"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleRStD" eSuperTypes="couscous.ecore#//RoleRequis">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacerstd" eType="#//InterfaceRStD"
+        eOpposite="#//InterfaceRStD/rolerstd"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleRDtS" eSuperTypes="couscous.ecore#//RoleRequis">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacerdts" eType="#//InterfaceRDtS"
+        eOpposite="#//InterfaceRDtS/rolerdts"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleRStC" eSuperTypes="couscous.ecore#//RoleRequis">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacerstc" eType="#//InterfaceRStC"
+        eOpposite="#//InterfaceRStC/rolerstc"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleRCtS" eSuperTypes="couscous.ecore#//RoleRequis">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacercts" eType="#//InterfaceRCtS"
+        eOpposite="#//InterfaceRCtS/rolercts"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleRCtD" eSuperTypes="couscous.ecore#//RoleRequis">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacerctd" eType="#//InterfaceRCtD"
+        eOpposite="#//InterfaceRCtD/rolerctd"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleFDtC" eSuperTypes="couscous.ecore#//RoleFourni">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacefdtc" eType="#//InterfaceFDtC"
+        eOpposite="#//InterfaceFDtC/rolefdtc"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleFDtS" eSuperTypes="couscous.ecore#//RoleFourni">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacefdts" eType="#//InterfaceFDtS"
+        eOpposite="#//InterfaceFDtS/rolefdts"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleFStD" eSuperTypes="couscous.ecore#//RoleFourni">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacefstc" eType="#//InterfaceFStC"
+        eOpposite="#//InterfaceFStC/rolefstd"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleFStC" eSuperTypes="couscous.ecore#//RoleFourni">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacefstc" eType="#//InterfaceFStC"
+        eOpposite="#//InterfaceFStC/rolefstc"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleFCtS" eSuperTypes="couscous.ecore#//RoleFourni">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacefcts" eType="#//InterfaceFCtS"
+        eOpposite="#//InterfaceFCtS/rolefcts"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoleFCtD" eSuperTypes="couscous.ecore#//RoleFourni">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interfacefctd" eType="#//InterfaceFCtD"
+        eOpposite="#//InterfaceFCtD/rolefctd"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RoleAskRequest" eSuperTypes="couscous.ecore#//RoleFourni">
     <eStructuralFeatures xsi:type="ecore:EReference" name="attachementserverrpc" eType="#//AttachementServerRPC"
         eOpposite="#//AttachementServerRPC/roleaskrequest"/>
