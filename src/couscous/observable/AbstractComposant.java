@@ -9,7 +9,7 @@ import couscous.message.Message;
 
 public abstract class AbstractComposant implements Composant {
 	private Observable obs = new Observable();
-	private ArrayList<String> manageable = new ArrayList<String>();
+	private ArrayList<String> manageable = new ArrayList<String>(); // Lié ou non des ports requis
 	
 	@Override
 	public void addObserver(Observer o) {

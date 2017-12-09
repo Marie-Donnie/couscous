@@ -1,5 +1,6 @@
 package couscous.observable;
 
+import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
 
@@ -8,6 +9,7 @@ import couscous.message.Message;
 
 public abstract class AbstractConnector implements Connector {
 	private Observable obs = new Observable();
+	private ArrayList<String> manageable = new ArrayList<String>(); // Lié ou non des ports requis
 
 	@Override
 	public void addObserver(Observer o) {
