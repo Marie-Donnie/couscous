@@ -1,31 +1,10 @@
 package couscous.connectors;
 
-import java.util.Observer;
+import couscous.observable.AbstractConnector;
 
-public class RPC implements Connector {
+public class RPC extends AbstractConnector {
 
-	@Override
-	public void addObserver(Observer o) {
-		// TODO Auto-generated method stub
 
-	}
 
-	@Override
-	public void deleteObserver(Observer o) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void notifyObservers() {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void notifyObservers(Object arg) {
-		// TODO Auto-generated method stub
-
-	}
 
 }

@@ -2,7 +2,7 @@ package couscous.composants;
 
 import couscous.observable.AbstractComposant;
 
-public class Database extends AbstractComposant  {
+public class Server extends AbstractComposant {
 
 	@Override
 	public void envoieMessage(String msg) {

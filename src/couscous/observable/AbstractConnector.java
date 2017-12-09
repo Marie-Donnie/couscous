@@ -3,9 +3,9 @@ package couscous.observable;
 import java.util.Observable;
 import java.util.Observer;
 
-import couscous.composants.Composant;
+import couscous.connectors.Connector;
 
-public abstract class AbstractConnector implements Composant {
+public abstract class AbstractConnector implements Connector {
 	private Observable obs = new Observable();
 
 	@Override
@@ -32,4 +32,16 @@ public abstract class AbstractConnector implements Composant {
 
 	}
 
+	@Override
+	public void reçoitMessage(String msg) {
+		transmetMessage(msg);
+		
+	}
+
+	@Override
+	public void transmetMessage(String msg) {
+		notifyObservers(msg);
+		
+	}
+	
 }
