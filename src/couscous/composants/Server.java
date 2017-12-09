@@ -1,17 +1,23 @@
 package couscous.composants;
 
+import couscous.message.Message;
 import couscous.observable.AbstractComposant;
 
 public class Server extends AbstractComposant {
 
-	@Override
-	public void envoieMessage(String msg) {
-		// TODO Auto-generated method stub
-		
-	}
 
+	public void envoyerMessageAuClient(String msg) {
+		Message message = new Message(Client.class, msg);
+		envoyerMessage(message);
+	}
+	
+	public void envoyerMessageAuConnectionManager(String msg) {
+		Message message = new Message(ConnectionManager.class, msg);
+		envoyerMessage(message);
+	}
+	
 	@Override
-	public void reçoitMessage(String msg) {
+	public void recevoirMessage(Message msg) {
 		// TODO Auto-generated method stub
 		
 	}

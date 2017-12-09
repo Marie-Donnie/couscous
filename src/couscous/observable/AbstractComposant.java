@@ -4,6 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 import couscous.composants.Composant;
+import couscous.message.Message;
 
 public abstract class AbstractComposant implements Composant {
 	private Observable obs = new Observable();
@@ -30,6 +31,11 @@ public abstract class AbstractComposant implements Composant {
 	public void notifyObservers(Object arg) {
 		obs.notifyObservers(arg);
 
+	}
+	
+	@Override
+	public void envoyerMessage(Message msg) {
+		notifyObservers(msg);		
 	}
 
 }
