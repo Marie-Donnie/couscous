@@ -29,6 +29,20 @@ public class Case {
 		return res;
 	}
 	
+	
+	// Dit si dans la liste de from on a bien str
+	public boolean fromContain(String str) {
+		boolean verdict = false;
+		
+		for ( String e : from) {
+			if(e == str) {
+				verdict = true;
+			}
+		}
+		
+		return verdict;
+	}
+	
 	public ArrayList<String> getFrom() {
 		return from;
 	}

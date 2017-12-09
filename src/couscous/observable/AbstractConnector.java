@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
 
+import couscous.connectors.Case;
 import couscous.connectors.Connector;
 import couscous.message.Message;
 
 public abstract class AbstractConnector implements Connector {
 	private Observable obs = new Observable();
-	private ArrayList<String> manageable = new ArrayList<String>(); // Lié ou non des ports requis
+	private Case manageable; // Lié ou non des ports requis
 
 	@Override
 	public void addObserver(Observer o) {
@@ -34,26 +35,21 @@ public abstract class AbstractConnector implements Connector {
 		obs.notifyObservers(arg);
 
 	}
-
+	@Override
 	public void recevoirMessage(Message msg) {
 		transmettreMessage(msg);
 		
 	}
-
+	
+	@Override
 	public void transmettreMessage(Message msg) {
-		notifyObservers(msg);
-		
+		msg.setDestinataire(this.manageable.getToCorespondant(msg.getDestinataire()));
+		notifyObservers(msg);			
 	}
 	
 	@Override
 	public boolean ICanManageThis(String str) {
-		boolean verdict = false;
-		for ( String e : manageable) {
-			if(e == str) {
-				verdict = true;
-			}
-		}
-		return verdict;
+		return manageable.fromContain(str);
 	}
 	
 	

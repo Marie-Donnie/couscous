@@ -5,12 +5,14 @@ import java.util.Observable;
 import java.util.Observer;
 
 import couscous.composants.Composant;
+import couscous.connectors.Case;
 import couscous.message.Message;
 
 public abstract class AbstractComposant implements Composant {
 	private Observable obs = new Observable();
-	private ArrayList<String> manageable = new ArrayList<String>(); // Lié ou non des ports requis
+	private Case manageable; // Lié ou non des ports requis
 	
+
 	@Override
 	public void addObserver(Observer o) {
 		obs.addObserver(o);
@@ -32,23 +34,24 @@ public abstract class AbstractComposant implements Composant {
 	}
 	
 	@Override
-	public void envoyerMessage(Message msg) {
-		notifyObservers(msg);		
+	public void recevoirMessage(Message msg) {
+		envoyerMessage(msg);
+		
 	}
 	
-	public void addManageable(String str) {
-		manageable.add(str);
+	@Override
+	public void envoyerMessage(Message msg) {
+		msg.setDestinataire(this.manageable.getToCorespondant(msg.getDestinataire()));
+		notifyObservers(msg);			
+	}
+	
+	public void addManageable(String f, String t) {
+		manageable.addCouple(f, t);
 	}
 	
 	@Override
 	public boolean ICanManageThis(String str) {
-		boolean verdict = false;
-		for ( String e : manageable) {
-			if(e == str) {
-				verdict = true;
-			}
-		}
-		return verdict;
+		return manageable.fromContain(str);
 	}
 	
 	
