@@ -88,6 +88,12 @@ public class SystemServerDetail implements Configuration {
 		if (msg.getDestinataire().equals("Database")) {
 			this.database.recevoirMessage(msg);
 		}
+		if (msg.getDestinataire().equals("Client")) {
+			this.bindingSDtoCS.transmettreMessage(msg);
+		}
+		if (msg.getDestinataire().equals("Server")) {
+			this.bindingSDtoCS.transmettreMessage(msg);
+		}
 	}
 
 }
