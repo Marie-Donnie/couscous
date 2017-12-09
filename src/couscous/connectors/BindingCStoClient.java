@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import couscous.observable.AbstractConnector;
 
-public class Binding extends AbstractConnector {
+public class BindingCStoClient extends AbstractConnector {
 	private ArrayList<String> manageable = new ArrayList<String>(); // Lié ou non des ports requis
 
 	@Override
