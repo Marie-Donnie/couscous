@@ -5,12 +5,12 @@ import couscous.observable.AbstractComposant;
 
 public class GestionnaireSecurite extends AbstractComposant  {
 	
-	private int mdpExpected = 0010042;
+	private String mdpExpected = "0010042";
 
 	public GestionnaireSecurite () {
 		super();
 		this.addManageable("PortRAskedAuthorization", "PortFRequestOpening"); // Voir M1
-		this.addManageable("PortRDataReady", "PortTransmitRequest");
+		this.addManageable("PortRDataReady", "PortFSendAuthorization");
 	}
 	
 	
@@ -23,7 +23,6 @@ public class GestionnaireSecurite extends AbstractComposant  {
 			}
 			envoyerMessage(msg);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

@@ -3,14 +3,14 @@ package couscous.message;
 public class Message {
 	private String destinataire;
 	private String message;
-	private int mdp;
+	private String mdp;
 	
-	public int getMdp() {
+	public String getMdp() {
 		return mdp;
 	}
 
 
-	public Message(String destinataire, String message, int mdp) {
+	public Message(String destinataire, String message, String mdp) {
 		super();
 		this.destinataire = destinataire;
 		this.message = message;

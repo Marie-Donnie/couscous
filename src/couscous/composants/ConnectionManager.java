@@ -11,11 +11,6 @@ public class ConnectionManager extends AbstractComposant  {
 		this.addManageable("PortRReceiveAuthorization", "PortFAskData");
 		this.addManageable("PortRReceiveData", "PortFSendBackData");// Pas dans le M1 (Send Back Data)
 	}
-	
-	@Override
-	public void recevoirMessage(Message msg) {
-		// TODO Auto-generated method stub
-		
-	}
+
 
 }

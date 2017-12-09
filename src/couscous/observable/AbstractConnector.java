@@ -47,6 +47,10 @@ public abstract class AbstractConnector implements Connector {
 		notifyObservers(msg);			
 	}
 	
+	public void addManageable(String from, String to) {
+		manageable.addCouple(from, to);
+	}
+	
 	@Override
 	public boolean ICanManageThis(String str) {
 		return manageable.fromContain(str);

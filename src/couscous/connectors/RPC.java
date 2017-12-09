@@ -4,10 +4,11 @@ import couscous.observable.AbstractConnector;
 
 public class RPC extends AbstractConnector {
 
-	@Override
-	public boolean ICanManageThis(String str) {
-		// TODO Auto-generated method stub
-		return false;
+	// Rapelle à l'inverse des Composants les fournis sont à gauche et les requis à droite
+	public RPC() {
+		super();
+		this.addManageable("PortTransmitReponse", "PortFinalReponse"); // Voir M1
+		this.addManageable("PortSendRequest", "PortReceiveRequest");
 	}
 
  
