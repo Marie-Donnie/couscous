@@ -3,7 +3,7 @@ package couscous.composants;
 import couscous.message.Message;
 import couscous.observable.AbstractComposant;
 
-public class SecurityManager extends AbstractComposant  {
+public class GestionnaireSecurite extends AbstractComposant  {
 
 
 

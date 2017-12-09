@@ -4,13 +4,15 @@ import java.util.Observable;
 
 import couscous.composants.ConnectionManager;
 import couscous.composants.Database;
+import couscous.composants.GestionnaireSecurite;
 import couscous.connectors.Binding;
+import couscous.message.Message;
 
 public class SystemServerDetail implements Configuration {
 
 
 	private ConnectionManager connectionmanager;
-	private SecurityManager securitymanager;
+	private GestionnaireSecurite securitymanager;
 	private Database database;
 	private Binding bindingCStoSD;
 	private Binding bindingSDtoCS;
@@ -19,7 +21,7 @@ public class SystemServerDetail implements Configuration {
 	public SystemServerDetail(Binding bindingCStoSD, Binding bindingSDtoCS) {
 		super();
 		this.connectionmanager = new ConnectionManager();
-		this.securitymanager = new SecurityManager();
+		this.securitymanager = new GestionnaireSecurite();
 		this.database = new Database();	
 		this.bindingCStoSD = bindingCStoSD;
 		this.bindingCStoSD.addObserver(this);
@@ -35,13 +37,15 @@ public class SystemServerDetail implements Configuration {
 		this.connectionmanager = connectionmanager;
 	}
 
-	public SecurityManager getSecuritymanager() {
+	public GestionnaireSecurite getSecuritymanager() {
 		return securitymanager;
 	}
 
-	public void setSecuritymanager(SecurityManager securitymanager) {
+
+	public void setSecuritymanager(GestionnaireSecurite securitymanager) {
 		this.securitymanager = securitymanager;
 	}
+
 
 	public Database getDatabase() {
 		return database;
@@ -74,7 +78,16 @@ public class SystemServerDetail implements Configuration {
 	@Override
 	public void update(Observable o, Object arg) {
 		// TODO Auto-generated method stub
-		
+		Message msg = (Message)arg;
+		if (msg.getDestinataire().equals("ConnectionManager")) {
+			this.connectionmanager.recevoirMessage(msg);
+		}
+		if (msg.getDestinataire().equals("SecurityManager")) {
+			this.securitymanager.recevoirMessage(msg);
+		}
+		if (msg.getDestinataire().equals("Database")) {
+			this.database.recevoirMessage(msg);
+		}
 	}
 
 }

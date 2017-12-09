@@ -40,6 +40,12 @@ public class SystemCS implements Configuration {
 		if (msg.getDestinataire().equals("ConnectionManager")) {
 			this.bindingCStoSD.transmettreMessage(msg);
 		}
+		if (msg.getDestinataire().equals("SecurityManager")) {
+			this.bindingCStoSD.transmettreMessage(msg);
+		}
+		if (msg.getDestinataire().equals("Database")) {
+			this.bindingCStoSD.transmettreMessage(msg);
+		}
 	}
 	
 	public Client getClient() {
