@@ -7,12 +7,12 @@ public class Server extends AbstractComposant {
 
 
 	public void envoyerMessageAuClient(String msg) {
-		Message message = new Message(Client.class, msg);
+		Message message = new Message("Client", msg);
 		envoyerMessage(message);
 	}
 	
 	public void envoyerMessageAuConnectionManager(String msg) {
-		Message message = new Message(ConnectionManager.class, msg);
+		Message message = new Message("ConnectionManager", msg);
 		envoyerMessage(message);
 	}
 	

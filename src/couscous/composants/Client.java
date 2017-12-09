@@ -7,7 +7,7 @@ public class Client extends AbstractComposant {
 
 	
 	public void envoyerMessageAuServeur(String msg) {		
-		Message message = new Message(Server.class, msg);
+		Message message = new Message("Server", msg);
 		envoyerMessage(message);
 	}
 
