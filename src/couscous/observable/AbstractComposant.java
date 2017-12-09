@@ -12,25 +12,21 @@ public abstract class AbstractComposant implements Composant {
 	@Override
 	public void addObserver(Observer o) {
 		obs.addObserver(o);
-
 	}
 
 	@Override
 	public void deleteObserver(Observer o) {
 		obs.deleteObserver(o);
-
 	}
 
 	@Override
 	public void notifyObservers() {
 		obs.notifyObservers();
-
 	}
 
 	@Override
 	public void notifyObservers(Object arg) {
 		obs.notifyObservers(arg);
-
 	}
 	
 	@Override
