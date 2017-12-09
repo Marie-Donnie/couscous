@@ -8,7 +8,7 @@ public class Client extends AbstractComposant {
 	
 	public Client () {
 		super();
-		this.addManageable("ReciveAsk"); // Voir 
+		this.addManageable("ReceiveAsk"); // Voir 
 		this.addManageable("RetreiveRequest");
 	}
 	
