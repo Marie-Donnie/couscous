@@ -7,7 +7,7 @@ import couscous.composants.Server;
 import couscous.connectors.Binding;
 import couscous.message.Message;
 
-public class SystemCS implements Configuration {
+public class SystemCS extends AbstractConfiguration {
 	private Client client;
 	private Server serveur;
 	// nécessaire ?

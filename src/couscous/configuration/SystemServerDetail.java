@@ -8,7 +8,7 @@ import couscous.composants.GestionnaireSecurite;
 import couscous.connectors.Binding;
 import couscous.message.Message;
 
-public class SystemServerDetail implements Configuration {
+public class SystemServerDetail extends AbstractConfiguration {
 
 
 	private ConnectionManager connectionmanager;
