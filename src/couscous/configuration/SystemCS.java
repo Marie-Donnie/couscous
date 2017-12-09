@@ -10,14 +10,28 @@ import couscous.observable.IObservable;
 
 public class SystemCS extends AbstractConfiguration {
 
-	// nÃ©cessaire ?
-	//private RPC rpc;
-	
-
 	
 	public SystemCS() {
 		super();
 		
 	}
-
+	
+	@Override
+	public void update(Observable o, Object arg) {
+		Message msg = (Message)arg;
+		Boolean trouver = false;
+		
+		for (IObservable obs : this.getObservables()) {
+			if (obs.ICanManageThis(msg.getDestinataire())) {
+				trouver = true;
+				obs.recevoirMessage(msg);
+			}
+		}
+		
+		//Si trouver = false alors c'est le message initial et on configue le déstinataire en conséquence
+		if( trouver == false) {
+			msg.setDestinataire("PortAskClient");
+			this.update(o, msg);
+		}
+	}
 }
