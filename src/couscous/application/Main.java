@@ -5,7 +5,7 @@ import couscous.configuration.SystemCS;
 import couscous.configuration.SystemServerDetail;
 import couscous.message.Message;
 
-public class Application {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

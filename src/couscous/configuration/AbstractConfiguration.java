@@ -16,6 +16,7 @@ public abstract class AbstractConfiguration implements Configuration {
 	
 	public void addObservable(IObservable o) {
 		observables.add(o);
+		o.addObserver(this);
 	}
 
 }
