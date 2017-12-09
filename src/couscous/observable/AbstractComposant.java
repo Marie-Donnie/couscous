@@ -49,5 +49,7 @@ public abstract class AbstractComposant implements Composant {
 		}
 		return verdict;
 	}
+	
+	
 
 }

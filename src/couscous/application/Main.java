@@ -10,9 +10,16 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
+		Database db = new Database();
+		
+		
 		SystemCS systemCS = new SystemCS();
-		SystemServerDetail systemSD = new SystemServerDetail(systemCS.getBindingCStoSD(), systemCS.getBindingSDtoCS());
-		Database db = systemSD.getDatabase();
+		SystemServerDetail systemSD = new SystemServerDetail();
+		
+		
+		systemSD.addObservable(db);
+		
 		Message msg = new Message("Database", "coucou	lol");
 		db.recevoirMessage(msg);
 		
