@@ -40,6 +40,7 @@ public abstract class AbstractComposant implements Composant {
 		manageable.add(str);
 	}
 	
+	@Override
 	public boolean ICanManageThis(String str) {
 		boolean verdict = false;
 		for ( String e : manageable) {

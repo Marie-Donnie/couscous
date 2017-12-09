@@ -45,4 +45,16 @@ public abstract class AbstractConnector implements Connector {
 		
 	}
 	
+	@Override
+	public boolean ICanManageThis(String str) {
+		boolean verdict = false;
+		for ( String e : manageable) {
+			if(e == str) {
+				verdict = true;
+			}
+		}
+		return verdict;
+	}
+	
+	
 }
