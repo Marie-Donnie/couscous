@@ -11,7 +11,12 @@ import couscous.observable.AbstractComposant;
 public class Database extends AbstractComposant  {
 
 
-
+	public Database() {
+		super();
+		this.addManageable("AskData"); // Voir 
+		this.addManageable("AskOpening");
+	}
+	
 	@Override
 	public void recevoirMessage(Message msg) {
 		String message = msg.getMessage();

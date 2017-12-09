@@ -6,6 +6,12 @@ import couscous.observable.AbstractComposant;
 public class Client extends AbstractComposant {
 
 	
+	public Client () {
+		super();
+		this.addManageable("ReciveAsk"); // Voir 
+		this.addManageable("RetreiveRequest");
+	}
+	
 	public void envoyerMessageAuServeur(String msg) {		
 		Message message = new Message("Server", msg);
 		envoyerMessage(message);
