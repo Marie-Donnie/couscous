@@ -10,7 +10,7 @@ import couscous.message.Message;
 
 public abstract class AbstractComposant implements Composant {
 	private Observable obs = new Observable();
-	private Case manageable; // Lié ou non des ports requis
+	private Case manageable; // Liï¿½ ou non des ports requis
 	
 
 	@Override
@@ -45,8 +45,8 @@ public abstract class AbstractComposant implements Composant {
 		notifyObservers(msg);			
 	}
 	
-	public void addManageable(String f, String t) {
-		manageable.addCouple(f, t);
+	public void addManageable(String from, String to) {
+		manageable.addCouple(from, to);
 	}
 	
 	@Override
