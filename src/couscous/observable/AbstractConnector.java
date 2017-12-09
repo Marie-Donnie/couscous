@@ -4,6 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 import couscous.connectors.Connector;
+import couscous.message.Message;
 
 public abstract class AbstractConnector implements Connector {
 	private Observable obs = new Observable();
@@ -32,14 +33,12 @@ public abstract class AbstractConnector implements Connector {
 
 	}
 
-	@Override
-	public void reçoitMessage(String msg) {
-		transmetMessage(msg);
+	public void recevoirMessage(Message msg) {
+		transmettreMessage(msg);
 		
 	}
 
-	@Override
-	public void transmetMessage(String msg) {
+	public void transmettreMessage(Message msg) {
 		notifyObservers(msg);
 		
 	}

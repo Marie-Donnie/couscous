@@ -22,8 +22,8 @@ public class SystemServerDetail implements Configuration {
 		this.securitymanager = new SecurityManager();
 		this.database = new Database();	
 		this.bindingCStoSD = bindingCStoSD;
+		this.bindingCStoSD.addObserver(this);
 		this.bindingSDtoCS = bindingSDtoCS;		
-		this.bindingSDtoCS.addObserver(this);
 	}
 
 	

@@ -5,6 +5,7 @@ import java.util.Observable;
 import couscous.composants.Client;
 import couscous.composants.Server;
 import couscous.connectors.Binding;
+import couscous.message.Message;
 
 public class SystemCS implements Configuration {
 	private Client client;
@@ -22,15 +23,23 @@ public class SystemCS implements Configuration {
 		this.serveur = new Server();
 		this.serveur.addObserver(this);
 		this.bindingCStoSD = new Binding();		
-		this.bindingCStoSD.addObserver(this);
 		this.bindingSDtoCS = new Binding();	
+		this.bindingSDtoCS.addObserver(this);
 	}
 
 
 	@Override
 	public void update(Observable o, Object arg) {
-		// TODO Auto-generated method stub
-		
+		Message msg = (Message)arg;
+		if (msg.getDestinataire().equals("Server")) {
+			this.serveur.recevoirMessage(msg);
+		}			
+		if (msg.getDestinataire().equals("Client")) {
+			this.client.recevoirMessage(msg);			
+		}
+		if (msg.getDestinataire().equals("ConnectionManager")) {
+			this.bindingCStoSD.transmettreMessage(msg);
+		}
 	}
 	
 	public Client getClient() {
