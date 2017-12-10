@@ -12,6 +12,10 @@ public abstract class AbstractConnector implements Connector {
 	private Observable obs = new Observable();
 	private Case manageable; // Lit ou non des ports requis
 
+	public AbstractConnector () {
+		manageable = new Case();
+	}
+	
 	@Override
 	public void addObserver(Observer o) {
 		obs.addObserver(o);
