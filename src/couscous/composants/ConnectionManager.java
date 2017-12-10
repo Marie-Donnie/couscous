@@ -1,6 +1,5 @@
 package couscous.composants;
 
-import couscous.message.Message;
 import couscous.observable.AbstractComposant;
 
 public class ConnectionManager extends AbstractComposant  {
