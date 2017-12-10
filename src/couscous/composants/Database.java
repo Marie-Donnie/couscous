@@ -16,6 +16,7 @@ public class Database extends AbstractComposant  {
 	
 	public Database() {
 		super();
+		this.ouverts = new ArrayList<Integer>();
 		this.addManageable("PortRAskedData", "PortFSendData"); // Connection Manager
 		this.addManageable("PortRAskedOpening", "PortFConfirmOpened"); // Security Manager
 	}
@@ -92,10 +93,13 @@ public class Database extends AbstractComposant  {
             	String[] parts = line.split("\t");
             	// Vérification du format de base de données
                 if ( parts.length == 3 && parts[0].matches("^-?\\d+$") ) {
+                	System.out.println(nom);
                 	// On vérifie si la ligne est l'entrée qu'on cherche
-                	if (parts[1].equals("nom")) {
+                	if (parts[1].equals(nom)) {
+                		System.out.println("là");
                 		// On récupère l'id de cette entrée
                 		int id = Integer.parseInt(parts[0]);
+                		System.out.println(id);
                 		openData(id);
                         bufferedReader.close();
                 		return id;
