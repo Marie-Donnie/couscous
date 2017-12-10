@@ -1,5 +1,6 @@
 package couscous.observable;
 
+import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
 
@@ -9,6 +10,7 @@ import couscous.message.Message;
 
 public abstract class AbstractComposant implements Composant {
 	private Observable obs = new Observable();
+	private ArrayList<Observer> listObs = new ArrayList<Observer>();
 	private Case manageable; // Lit ou non des ports requis
 	
 
@@ -19,6 +21,7 @@ public abstract class AbstractComposant implements Composant {
 	@Override
 	public void addObserver(Observer o) {
 		obs.addObserver(o);
+		listObs.add(o);
 	}
 
 	@Override
@@ -45,8 +48,9 @@ public abstract class AbstractComposant implements Composant {
 	@Override
 	public void envoyerMessage(Message msg) {
 		msg.setDestinataire(this.manageable.getToCorrespondant(msg.getDestinataire()));
-		obs.hasChanged();
-		notifyObservers(msg);			
+		for ( Observer obs : listObs) {
+			obs.update(this.obs,msg);
+		}			
 	}
 	
 	public void addManageable(String from, String to) {

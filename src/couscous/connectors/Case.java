@@ -24,7 +24,6 @@ public class Case {
 			if(e==f) {
 				index =from.indexOf(e);
 				res = to.get(index);
-				System.out.println(res + "11");
 			}
 		}
 		return res;

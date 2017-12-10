@@ -35,7 +35,6 @@ public class SystemCS extends AbstractConfiguration {
 		}
 		for (IObservable obs : this.getObservables()) {
 			if (obs.ICanManageThis(msg.getDestinataire())) {
-				System.out.println("ici on trouve l'initial");
 				obs.recevoirMessage(msg);
 			}
 		}
