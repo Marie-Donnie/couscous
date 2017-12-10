@@ -5,13 +5,20 @@
     <semanticResources>couscous.genmodel</semanticResources>
     <semanticResources>ClientServer.ecore</semanticResources>
     <semanticResources>M0/couscous.di</semanticResources>
+    <semanticResources>../java2kdmFragments/Package2Directory_java2kdm.xmi</semanticResources>
+    <semanticResources>../java2kdmFragments/couscous.application_java2kdm.xmi</semanticResources>
+    <semanticResources>../java2kdmFragments/couscous.message_java2kdm.xmi</semanticResources>
+    <semanticResources>../java2kdmFragments/couscous.configuration_java2kdm.xmi</semanticResources>
     <semanticResources>M0/couscous_java.xmi</semanticResources>
     <semanticResources>M0/couscous_java2kdm.xmi</semanticResources>
     <semanticResources>M0/couscous_kdm.xmi</semanticResources>
     <semanticResources>M0/java2kdmFragments/Package2Directory_java2kdm.xmi</semanticResources>
     <semanticResources>M0/java2kdmFragments/couscous.application_java2kdm.xmi</semanticResources>
+    <semanticResources>M0/java2kdmFragments/couscous.composants_java2kdm.xmi</semanticResources>
     <semanticResources>M0/java2kdmFragments/couscous.configuration_java2kdm.xmi</semanticResources>
+    <semanticResources>M0/java2kdmFragments/couscous.connectors_java2kdm.xmi</semanticResources>
     <semanticResources>M0/java2kdmFragments/couscous.message_java2kdm.xmi</semanticResources>
+    <semanticResources>M0/java2kdmFragments/couscous.observable_java2kdm.xmi</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_iAuNcMiKEee_E4FvZPRKKA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_iIXtkMiKEee_E4FvZPRKKA" name="couscous" repPath="#_iITcIMiKEee_E4FvZPRKKA">

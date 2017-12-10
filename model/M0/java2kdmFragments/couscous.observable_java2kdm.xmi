@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:javaapplication="http://www.eclipse.org/MoDisco/Java/Composition/0.1.incubation/javaApplication">
+  <javaapplication:Java2File>
+    <file href="../couscous_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.7/@inventoryElement.0/@inventoryElement.2/@inventoryElement.0"/>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="30" endLine="3" endPosition="57">
+      <node href="../couscous_java.xmi#//@compilationUnits.20/@imports.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="4" startPosition="58" endLine="4" endPosition="86">
+      <node href="../couscous_java.xmi#//@compilationUnits.20/@imports.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="87" endLine="5" endPosition="113">
+      <node href="../couscous_java.xmi#//@compilationUnits.20/@imports.2"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="115" endLine="7" endPosition="147">
+      <node href="../couscous_java.xmi#//@compilationUnits.20/@imports.3"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="8" startPosition="148" endLine="8" endPosition="185">
+      <node href="../couscous_java.xmi#//@compilationUnits.20/@imports.4"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="186" endLine="9" endPosition="218">
+      <node href="../couscous_java.xmi#//@compilationUnits.20/@imports.5"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="220" endLine="86" endPosition="1649">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="271" endLine="11" endPosition="280">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@superInterfaces.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="271" endLine="11" endPosition="280">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@superInterfaces.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="284" endLine="12" endPosition="326">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="292" endLine="12" endPosition="302">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="292" endLine="12" endPosition="302">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="303" endLine="12" endPosition="325">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.0/@fragments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="309" endLine="12" endPosition="325">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.0/@fragments.0/@initializer"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="313" endLine="12" endPosition="323">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.0/@fragments.0/@initializer/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="313" endLine="12" endPosition="323">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.0/@fragments.0/@initializer/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="328" endLine="13" endPosition="392">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="336" endLine="13" endPosition="355">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.1/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="356" endLine="13" endPosition="391">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.1/@fragments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="366" endLine="13" endPosition="391">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.1/@fragments.0/@initializer"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="370" endLine="13" endPosition="389">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.1/@fragments.0/@initializer/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="394" endLine="14" endPosition="418">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.2"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="402" endLine="14" endPosition="406">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.2/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="402" endLine="14" endPosition="406">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.2/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="407" endLine="14" endPosition="417">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.2/@fragments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="419" endLine="14" endPosition="449">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.2/@comments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="452" endLine="18" endPosition="511">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.3"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="480" endLine="18" endPosition="511">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.3/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="17" startPosition="484" endLine="17" endPosition="494">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@expression/@leftHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="17" startPosition="484" endLine="17" endPosition="507">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="17" startPosition="484" endLine="17" endPosition="508">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="17" startPosition="497" endLine="17" endPosition="507">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@expression/@rightHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="17" startPosition="501" endLine="17" endPosition="505">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@expression/@rightHandSide/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="17" startPosition="501" endLine="17" endPosition="505">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@expression/@rightHandSide/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="515" endLine="25" endPosition="607">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="515" endLine="20" endPosition="524">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="516" endLine="20" endPosition="524">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="533" endLine="21" endPosition="537">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="550" endLine="21" endPosition="560">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="550" endLine="21" endPosition="558">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="550" endLine="21" endPosition="558">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="562" endLine="25" endPosition="607">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="566" endLine="22" endPosition="584">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="566" endLine="22" endPosition="585">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="566" endLine="22" endPosition="569">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="582" endLine="22" endPosition="583">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="588" endLine="23" endPosition="595">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@body/@statements.1/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="588" endLine="23" endPosition="603">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@body/@statements.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="588" endLine="23" endPosition="602">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@body/@statements.1/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="600" endLine="23" endPosition="601">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.4/@body/@statements.1/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="610" endLine="31" endPosition="690">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="610" endLine="27" endPosition="619">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="611" endLine="27" endPosition="619">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="628" endLine="28" endPosition="632">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="648" endLine="28" endPosition="658">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="648" endLine="28" endPosition="656">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="648" endLine="28" endPosition="656">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="660" endLine="31" endPosition="690">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="664" endLine="29" endPosition="667">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="664" endLine="29" endPosition="685">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="664" endLine="29" endPosition="686">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="683" endLine="29" endPosition="684">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.5/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="33" startPosition="693" endLine="33" endPosition="702">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.6/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="33" startPosition="693" endLine="37" endPosition="764">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.6"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="33" startPosition="694" endLine="33" endPosition="702">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.6/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="34" startPosition="711" endLine="34" endPosition="715">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.6/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="34" startPosition="734" endLine="37" endPosition="764">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.6/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="35" startPosition="738" endLine="35" endPosition="760">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.6/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="35" startPosition="738" endLine="35" endPosition="759">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.6/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="35" startPosition="738" endLine="35" endPosition="741">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.6/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="39" startPosition="767" endLine="44" endPosition="880">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="39" startPosition="767" endLine="39" endPosition="776">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="39" startPosition="768" endLine="39" endPosition="776">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="40" startPosition="785" endLine="40" endPosition="789">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="40" startPosition="806" endLine="40" endPosition="812">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="40" startPosition="806" endLine="40" endPosition="812">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="40" startPosition="806" endLine="40" endPosition="816">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="40" startPosition="818" endLine="44" endPosition="880">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="41" startPosition="822" endLine="41" endPosition="847">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="41" startPosition="822" endLine="41" endPosition="832">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="41" startPosition="822" endLine="41" endPosition="828">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body/@statements.0/@expression/@expression/@qualifier"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="41" startPosition="822" endLine="41" endPosition="848">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="41" startPosition="829" endLine="41" endPosition="832">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="41" startPosition="841" endLine="41" endPosition="846">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="42" startPosition="851" endLine="42" endPosition="875">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body/@statements.1/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="42" startPosition="851" endLine="42" endPosition="854">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body/@statements.1/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="42" startPosition="851" endLine="42" endPosition="876">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body/@statements.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="42" startPosition="871" endLine="42" endPosition="874">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.7/@body/@statements.1/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="45" startPosition="882" endLine="49" endPosition="968">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="45" startPosition="882" endLine="45" endPosition="891">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="45" startPosition="883" endLine="45" endPosition="891">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="46" startPosition="900" endLine="46" endPosition="904">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="46" startPosition="921" endLine="46" endPosition="928">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="46" startPosition="921" endLine="46" endPosition="928">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="46" startPosition="921" endLine="46" endPosition="932">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="46" startPosition="934" endLine="49" endPosition="968">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="47" startPosition="938" endLine="47" endPosition="962">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="47" startPosition="938" endLine="47" endPosition="961">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="47" startPosition="957" endLine="47" endPosition="960">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.8/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="51" startPosition="972" endLine="51" endPosition="981">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="51" startPosition="972" endLine="58" endPosition="1206">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="51" startPosition="973" endLine="51" endPosition="981">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="990" endLine="52" endPosition="994">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1014" endLine="52" endPosition="1021">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1014" endLine="52" endPosition="1021">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1014" endLine="52" endPosition="1025">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1027" endLine="58" endPosition="1206">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1031" endLine="53" endPosition="1110">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1031" endLine="53" endPosition="1034">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1031" endLine="53" endPosition="1109">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1051" endLine="53" endPosition="1066">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1051" endLine="53" endPosition="1055">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1051" endLine="53" endPosition="1108">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1056" endLine="53" endPosition="1066">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0/@expression/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1086" endLine="53" endPosition="1089">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0/@arguments.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1086" endLine="53" endPosition="1107">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="54" startPosition="1113" endLine="54" endPosition="1136">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@comments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="1139" endLine="57" endPosition="1203">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="1145" endLine="55" endPosition="1153">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@parameter/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="1145" endLine="55" endPosition="1157">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@parameter"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="1145" endLine="55" endPosition="1153">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@parameter/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="1160" endLine="55" endPosition="1167">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="1169" endLine="57" endPosition="1203">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1174" endLine="56" endPosition="1177">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1174" endLine="56" endPosition="1198">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1174" endLine="56" endPosition="1199">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1185" endLine="56" endPosition="1193">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1185" endLine="56" endPosition="1189">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression/@arguments.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1190" endLine="56" endPosition="1193">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression/@arguments.0/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1194" endLine="56" endPosition="1197">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression/@arguments.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1210" endLine="62" endPosition="1298">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1217" endLine="60" endPosition="1221">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1236" endLine="60" endPosition="1242">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1236" endLine="60" endPosition="1247">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1236" endLine="60" endPosition="1242">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1249" endLine="60" endPosition="1255">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@parameters.1/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1249" endLine="60" endPosition="1258">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@parameters.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1249" endLine="60" endPosition="1255">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@parameters.1/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1260" endLine="62" endPosition="1298">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="61" startPosition="1264" endLine="61" endPosition="1295">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="61" startPosition="1264" endLine="61" endPosition="1294">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="61" startPosition="1264" endLine="61" endPosition="1274">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="61" startPosition="1285" endLine="61" endPosition="1289">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="61" startPosition="1291" endLine="61" endPosition="1293">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.10/@body/@statements.0/@expression/@arguments.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="64" startPosition="1302" endLine="67" endPosition="1397">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="64" startPosition="1302" endLine="64" endPosition="1311">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="64" startPosition="1303" endLine="64" endPosition="1311">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="65" startPosition="1320" endLine="65" endPosition="1327">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="65" startPosition="1343" endLine="65" endPosition="1353">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="65" startPosition="1343" endLine="65" endPosition="1349">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="65" startPosition="1343" endLine="65" endPosition="1349">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="65" startPosition="1355" endLine="67" endPosition="1397">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="66" startPosition="1359" endLine="66" endPosition="1394">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="66" startPosition="1366" endLine="66" endPosition="1376">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="66" startPosition="1366" endLine="66" endPosition="1393">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="66" startPosition="1389" endLine="66" endPosition="1392">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.11/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="69" startPosition="1400" endLine="71" endPosition="1445">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.12"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="69" startPosition="1407" endLine="69" endPosition="1417">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.12/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="69" startPosition="1407" endLine="69" endPosition="1417">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.12/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="69" startPosition="1427" endLine="71" endPosition="1445">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.12/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="70" startPosition="1431" endLine="70" endPosition="1442">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.12/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="70" startPosition="1438" endLine="70" endPosition="1441">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.12/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="73" startPosition="1448" endLine="75" endPosition="1505">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="73" startPosition="1455" endLine="73" endPosition="1459">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="73" startPosition="1467" endLine="73" endPosition="1477">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="73" startPosition="1467" endLine="73" endPosition="1477">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="73" startPosition="1467" endLine="73" endPosition="1481">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="73" startPosition="1483" endLine="75" endPosition="1505">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="74" startPosition="1487" endLine="74" endPosition="1501">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="74" startPosition="1487" endLine="74" endPosition="1491">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@body/@statements.0/@expression/@leftHandSide/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="74" startPosition="1487" endLine="74" endPosition="1495">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@body/@statements.0/@expression/@leftHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="74" startPosition="1487" endLine="74" endPosition="1502">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="74" startPosition="1492" endLine="74" endPosition="1495">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@body/@statements.0/@expression/@leftHandSide/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="74" startPosition="1498" endLine="74" endPosition="1501">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.13/@body/@statements.0/@expression/@rightHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="77" startPosition="1508" endLine="79" endPosition="1561">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.14"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="77" startPosition="1515" endLine="77" endPosition="1519">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.14/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="77" startPosition="1515" endLine="77" endPosition="1519">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.14/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="77" startPosition="1536" endLine="79" endPosition="1561">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.14/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="78" startPosition="1540" endLine="78" endPosition="1558">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.14/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="78" startPosition="1547" endLine="78" endPosition="1557">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.14/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="81" startPosition="1564" endLine="83" endPosition="1643">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="81" startPosition="1571" endLine="81" endPosition="1575">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="81" startPosition="1590" endLine="81" endPosition="1594">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="81" startPosition="1590" endLine="81" endPosition="1605">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="81" startPosition="1590" endLine="81" endPosition="1594">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="81" startPosition="1607" endLine="83" endPosition="1643">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="82" startPosition="1611" endLine="82" endPosition="1640">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="82" startPosition="1611" endLine="82" endPosition="1615">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@body/@statements.0/@expression/@leftHandSide/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="82" startPosition="1611" endLine="82" endPosition="1639">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="82" startPosition="1611" endLine="82" endPosition="1626">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@body/@statements.0/@expression/@leftHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="82" startPosition="1616" endLine="82" endPosition="1626">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@body/@statements.0/@expression/@leftHandSide/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="82" startPosition="1629" endLine="82" endPosition="1639">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.0/@bodyDeclarations.15/@body/@statements.0/@expression/@rightHandSide"/>
+    </children>
+    <unit href="../couscous_java.xmi#//@compilationUnits.20"/>
+    <parent href="Package2Directory_java2kdm.xmi#/5"/>
+  </javaapplication:Java2File>
+  <javaapplication:Java2File>
+    <file href="../couscous_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.7/@inventoryElement.0/@inventoryElement.2/@inventoryElement.2"/>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="30" endLine="3" endPosition="56">
+      <node href="../couscous_java.xmi#//@compilationUnits.21/@imports.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="58" endLine="5" endPosition="90">
+      <node href="../couscous_java.xmi#//@compilationUnits.21/@imports.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="92" endLine="16" endPosition="332">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="125" endLine="9" endPosition="129">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.0/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="125" endLine="9" endPosition="154">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="142" endLine="9" endPosition="152">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.0/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="142" endLine="9" endPosition="150">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.0/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="142" endLine="9" endPosition="150">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.0/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="156" endLine="10" endPosition="160">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.1/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="156" endLine="10" endPosition="188">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="176" endLine="10" endPosition="184">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.1/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="176" endLine="10" endPosition="184">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.1/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="176" endLine="10" endPosition="186">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.1/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="190" endLine="11" endPosition="213">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.2"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="190" endLine="11" endPosition="194">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.2/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="215" endLine="12" endPosition="248">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.3"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="215" endLine="12" endPosition="219">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.3/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="236" endLine="12" endPosition="242">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.3/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="236" endLine="12" endPosition="246">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.3/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="236" endLine="12" endPosition="242">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.3/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="252" endLine="14" endPosition="287">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.4"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="252" endLine="14" endPosition="259">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.4/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="275" endLine="14" endPosition="281">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.4/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="275" endLine="14" endPosition="281">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.4/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="275" endLine="14" endPosition="285">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.4/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="289" endLine="15" endPosition="330">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.5"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="296" endLine="15" endPosition="300">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.5/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="317" endLine="15" endPosition="324">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.5/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="317" endLine="15" endPosition="328">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.5/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="317" endLine="15" endPosition="324">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.1/@bodyDeclarations.5/@parameters.0/@type"/>
+    </children>
+    <unit href="../couscous_java.xmi#//@compilationUnits.21"/>
+    <parent href="Package2Directory_java2kdm.xmi#/5"/>
+  </javaapplication:Java2File>
+  <javaapplication:Java2File>
+    <file href="../couscous_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.7/@inventoryElement.0/@inventoryElement.2/@inventoryElement.1"/>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="30" endLine="3" endPosition="57">
+      <node href="../couscous_java.xmi#//@compilationUnits.22/@imports.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="4" startPosition="58" endLine="4" endPosition="86">
+      <node href="../couscous_java.xmi#//@compilationUnits.22/@imports.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="87" endLine="5" endPosition="113">
+      <node href="../couscous_java.xmi#//@compilationUnits.22/@imports.2"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="115" endLine="7" endPosition="152">
+      <node href="../couscous_java.xmi#//@compilationUnits.22/@imports.3"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="8" startPosition="153" endLine="8" endPosition="185">
+      <node href="../couscous_java.xmi#//@compilationUnits.22/@imports.4"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="186" endLine="9" endPosition="218">
+      <node href="../couscous_java.xmi#//@compilationUnits.22/@imports.5"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="220" endLine="83" endPosition="1593">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="271" endLine="11" endPosition="280">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@superInterfaces.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="11" startPosition="271" endLine="11" endPosition="280">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@superInterfaces.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="284" endLine="12" endPosition="326">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="292" endLine="12" endPosition="302">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="292" endLine="12" endPosition="302">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="303" endLine="12" endPosition="325">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.0/@fragments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="309" endLine="12" endPosition="325">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.0/@fragments.0/@initializer"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="313" endLine="12" endPosition="323">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.0/@fragments.0/@initializer/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="313" endLine="12" endPosition="323">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.0/@fragments.0/@initializer/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="328" endLine="13" endPosition="392">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="336" endLine="13" endPosition="355">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.1/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="356" endLine="13" endPosition="391">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.1/@fragments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="366" endLine="13" endPosition="391">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.1/@fragments.0/@initializer"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="370" endLine="13" endPosition="389">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.1/@fragments.0/@initializer/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="394" endLine="14" endPosition="418">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.2"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="402" endLine="14" endPosition="406">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.2/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="402" endLine="14" endPosition="406">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.2/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="407" endLine="14" endPosition="417">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.2/@fragments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="419" endLine="14" endPosition="449">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.2/@comments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="17" startPosition="454" endLine="19" endPosition="517">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.3"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="17" startPosition="481" endLine="19" endPosition="517">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.3/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="485" endLine="18" endPosition="513">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.3/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="485" endLine="18" endPosition="514">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.3/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="485" endLine="18" endPosition="500">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.3/@body/@statements.0/@expression/@leftHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="485" endLine="18" endPosition="489">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.3/@body/@statements.0/@expression/@leftHandSide/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="490" endLine="18" endPosition="500">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.3/@body/@statements.0/@expression/@leftHandSide/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="503" endLine="18" endPosition="513">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.3/@body/@statements.0/@expression/@rightHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="507" endLine="18" endPosition="511">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.3/@body/@statements.0/@expression/@rightHandSide/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="507" endLine="18" endPosition="511">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.3/@body/@statements.0/@expression/@rightHandSide/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="520" endLine="21" endPosition="529">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="520" endLine="25" endPosition="611">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="521" endLine="21" endPosition="529">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="538" endLine="22" endPosition="542">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="555" endLine="22" endPosition="565">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="555" endLine="22" endPosition="563">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="555" endLine="22" endPosition="563">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="567" endLine="25" endPosition="611">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="571" endLine="23" endPosition="590">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="571" endLine="23" endPosition="589">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="571" endLine="23" endPosition="574">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="587" endLine="23" endPosition="588">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="593" endLine="24" endPosition="608">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@body/@statements.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="593" endLine="24" endPosition="600">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@body/@statements.1/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="593" endLine="24" endPosition="607">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@body/@statements.1/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="605" endLine="24" endPosition="606">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.4/@body/@statements.1/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="614" endLine="27" endPosition="623">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="614" endLine="30" endPosition="693">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="615" endLine="27" endPosition="623">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="632" endLine="28" endPosition="636">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="652" endLine="28" endPosition="660">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="652" endLine="28" endPosition="662">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="652" endLine="28" endPosition="660">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="664" endLine="30" endPosition="693">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="668" endLine="29" endPosition="671">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="668" endLine="29" endPosition="690">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="668" endLine="29" endPosition="689">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="687" endLine="29" endPosition="688">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.5/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="32" startPosition="696" endLine="35" endPosition="766">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.6"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="32" startPosition="696" endLine="32" endPosition="705">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.6/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="32" startPosition="697" endLine="32" endPosition="705">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.6/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="33" startPosition="714" endLine="33" endPosition="718">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.6/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="33" startPosition="737" endLine="35" endPosition="766">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.6/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="34" startPosition="741" endLine="34" endPosition="744">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.6/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="34" startPosition="741" endLine="34" endPosition="762">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.6/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="34" startPosition="741" endLine="34" endPosition="763">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.6/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="37" startPosition="769" endLine="40" endPosition="852">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="37" startPosition="769" endLine="37" endPosition="778">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="37" startPosition="770" endLine="37" endPosition="778">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="38" startPosition="787" endLine="38" endPosition="791">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="38" startPosition="808" endLine="38" endPosition="818">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="38" startPosition="808" endLine="38" endPosition="814">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="38" startPosition="808" endLine="38" endPosition="814">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="38" startPosition="820" endLine="40" endPosition="852">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="39" startPosition="824" endLine="39" endPosition="849">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="39" startPosition="824" endLine="39" endPosition="827">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="39" startPosition="824" endLine="39" endPosition="848">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="39" startPosition="844" endLine="39" endPosition="847">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.7/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="42" startPosition="856" endLine="42" endPosition="865">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="42" startPosition="856" endLine="46" endPosition="938">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="42" startPosition="857" endLine="42" endPosition="865">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="43" startPosition="874" endLine="43" endPosition="878">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="43" startPosition="895" endLine="43" endPosition="906">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="43" startPosition="895" endLine="43" endPosition="902">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="43" startPosition="895" endLine="43" endPosition="902">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="43" startPosition="908" endLine="46" endPosition="938">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="44" startPosition="912" endLine="44" endPosition="932">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="44" startPosition="912" endLine="44" endPosition="931">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="44" startPosition="927" endLine="44" endPosition="930">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.8/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="48" startPosition="942" endLine="54" endPosition="1149">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="48" startPosition="942" endLine="48" endPosition="951">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="48" startPosition="943" endLine="48" endPosition="951">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="49" startPosition="960" endLine="49" endPosition="964">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="49" startPosition="980" endLine="49" endPosition="991">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="49" startPosition="980" endLine="49" endPosition="987">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="49" startPosition="980" endLine="49" endPosition="987">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="49" startPosition="993" endLine="54" endPosition="1149">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="997" endLine="50" endPosition="1000">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="997" endLine="50" endPosition="1076">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="997" endLine="50" endPosition="1075">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="1017" endLine="50" endPosition="1021">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="1017" endLine="50" endPosition="1032">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="1017" endLine="50" endPosition="1074">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="1022" endLine="50" endPosition="1032">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0/@expression/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="1052" endLine="50" endPosition="1055">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0/@arguments.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="1052" endLine="50" endPosition="1073">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.0/@expression/@arguments.0/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="51" startPosition="1079" endLine="53" endPosition="1143">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="51" startPosition="1085" endLine="51" endPosition="1093">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@parameter/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="51" startPosition="1085" endLine="51" endPosition="1093">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@parameter/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="51" startPosition="1085" endLine="51" endPosition="1097">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@parameter"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="51" startPosition="1100" endLine="51" endPosition="1107">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="51" startPosition="1109" endLine="53" endPosition="1143">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1114" endLine="52" endPosition="1139">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1114" endLine="52" endPosition="1138">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1114" endLine="52" endPosition="1117">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1125" endLine="52" endPosition="1133">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1125" endLine="52" endPosition="1129">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression/@arguments.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1130" endLine="52" endPosition="1133">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression/@arguments.0/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1134" endLine="52" endPosition="1137">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.9/@body/@statements.1/@body/@statements.0/@expression/@arguments.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1153" endLine="58" endPosition="1241">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1160" endLine="56" endPosition="1164">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1179" endLine="56" endPosition="1185">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1179" endLine="56" endPosition="1185">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1179" endLine="56" endPosition="1190">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1192" endLine="56" endPosition="1201">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@parameters.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1192" endLine="56" endPosition="1198">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@parameters.1/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1192" endLine="56" endPosition="1198">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@parameters.1/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="1203" endLine="58" endPosition="1241">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="57" startPosition="1207" endLine="57" endPosition="1237">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="57" startPosition="1207" endLine="57" endPosition="1238">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="57" startPosition="1207" endLine="57" endPosition="1217">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="57" startPosition="1228" endLine="57" endPosition="1232">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="57" startPosition="1234" endLine="57" endPosition="1236">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.10/@body/@statements.0/@expression/@arguments.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1245" endLine="63" endPosition="1340">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1245" endLine="60" endPosition="1254">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="60" startPosition="1246" endLine="60" endPosition="1254">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="61" startPosition="1263" endLine="61" endPosition="1270">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="61" startPosition="1286" endLine="61" endPosition="1292">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="61" startPosition="1286" endLine="61" endPosition="1292">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="61" startPosition="1286" endLine="61" endPosition="1296">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="61" startPosition="1298" endLine="63" endPosition="1340">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="62" startPosition="1302" endLine="62" endPosition="1337">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="62" startPosition="1309" endLine="62" endPosition="1336">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="62" startPosition="1309" endLine="62" endPosition="1319">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="62" startPosition="1332" endLine="62" endPosition="1335">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.11/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="65" startPosition="1343" endLine="67" endPosition="1388">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.12"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="65" startPosition="1350" endLine="65" endPosition="1360">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.12/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="65" startPosition="1350" endLine="65" endPosition="1360">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.12/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="65" startPosition="1370" endLine="67" endPosition="1388">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.12/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="66" startPosition="1374" endLine="66" endPosition="1385">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.12/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="66" startPosition="1381" endLine="66" endPosition="1384">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.12/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="69" startPosition="1391" endLine="71" endPosition="1448">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="69" startPosition="1398" endLine="69" endPosition="1402">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="69" startPosition="1410" endLine="69" endPosition="1420">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="69" startPosition="1410" endLine="69" endPosition="1424">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="69" startPosition="1410" endLine="69" endPosition="1420">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="69" startPosition="1426" endLine="71" endPosition="1448">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="70" startPosition="1430" endLine="70" endPosition="1445">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="70" startPosition="1430" endLine="70" endPosition="1434">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@body/@statements.0/@expression/@leftHandSide/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="70" startPosition="1430" endLine="70" endPosition="1444">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="70" startPosition="1430" endLine="70" endPosition="1438">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@body/@statements.0/@expression/@leftHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="70" startPosition="1435" endLine="70" endPosition="1438">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@body/@statements.0/@expression/@leftHandSide/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="70" startPosition="1441" endLine="70" endPosition="1444">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.13/@body/@statements.0/@expression/@rightHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="73" startPosition="1451" endLine="75" endPosition="1504">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.14"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="73" startPosition="1458" endLine="73" endPosition="1462">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.14/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="73" startPosition="1458" endLine="73" endPosition="1462">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.14/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="73" startPosition="1479" endLine="75" endPosition="1504">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.14/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="74" startPosition="1483" endLine="74" endPosition="1501">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.14/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="74" startPosition="1490" endLine="74" endPosition="1500">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.14/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="77" startPosition="1507" endLine="79" endPosition="1586">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="77" startPosition="1514" endLine="77" endPosition="1518">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="77" startPosition="1533" endLine="77" endPosition="1537">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="77" startPosition="1533" endLine="77" endPosition="1548">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="77" startPosition="1533" endLine="77" endPosition="1537">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="77" startPosition="1550" endLine="79" endPosition="1586">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="78" startPosition="1554" endLine="78" endPosition="1583">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="78" startPosition="1554" endLine="78" endPosition="1569">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@body/@statements.0/@expression/@leftHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="78" startPosition="1554" endLine="78" endPosition="1582">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="78" startPosition="1554" endLine="78" endPosition="1558">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@body/@statements.0/@expression/@leftHandSide/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="78" startPosition="1559" endLine="78" endPosition="1569">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@body/@statements.0/@expression/@leftHandSide/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="78" startPosition="1572" endLine="78" endPosition="1582">
+      <node href="../couscous_java.xmi#//@ownedElements.0/@ownedPackages.5/@ownedElements.2/@bodyDeclarations.15/@body/@statements.0/@expression/@rightHandSide"/>
+    </children>
+    <unit href="../couscous_java.xmi#//@compilationUnits.22"/>
+    <parent href="Package2Directory_java2kdm.xmi#/5"/>
+  </javaapplication:Java2File>
+</xmi:XMI>
