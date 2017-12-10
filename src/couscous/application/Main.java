@@ -25,12 +25,21 @@ public class Main {
 		ConnectorDatabaseAndSecurity connectorDataSecu = new ConnectorDatabaseAndSecurity();
 		ConnectorSecurityAndConnection connectorSecuCo = new ConnectorSecurityAndConnection();
 		RPC rpc = new RPC();
+
+		
+		systemCS.addObservable(cl);
+		systemCS.addObservable(serv);
+		systemCS.addObservable(bindingCsClient);
+		systemCS.addObservable(rpc);
 		
 		
-		
-		
-		
+		systemSD.addObservable(CoManager);
 		systemSD.addObservable(db);
+		systemSD.addObservable(gestionSecu);
+		systemSD.addObservable(bindingTRequest);
+		systemSD.addObservable(connectorDataCo);
+		systemSD.addObservable(connectorDataSecu);
+		systemSD.addObservable(connectorSecuCo);
 		
 		Message msg = new Message("Initial", "tutu","0010042");
 		db.recevoirMessage(msg);
