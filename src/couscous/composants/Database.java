@@ -32,10 +32,16 @@ public class Database extends AbstractComposant  {
 			}
 		}
 		if (msg.getDestinataire().equals("PortRAskedData")) {
-			String ret = askedData(message);
-			msg.setMessage(ret);
-			sendData(msg);
-			closeData((Integer)Integer.parseInt(ret));
+			// Le message envoyé est normalement un int
+			try {
+				String ret = askedData(message);
+				msg.setMessage(ret);
+				sendData(msg);
+				closeData((Integer)Integer.parseInt(ret));
+			}
+			catch(NumberFormatException ex) {
+				System.out.println("Le message n'a pas été correctement renvoyé");
+			}
 		}
 
 	}
