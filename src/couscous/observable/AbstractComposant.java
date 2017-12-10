@@ -10,7 +10,7 @@ import couscous.message.Message;
 
 public abstract class AbstractComposant implements Composant {
 	private Observable obs = new Observable();
-	private Case manageable; // Li� ou non des ports requis
+	private Case manageable; // Lit ou non des ports requis
 	
 
 	@Override
