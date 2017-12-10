@@ -45,6 +45,7 @@ public abstract class AbstractComposant implements Composant {
 	@Override
 	public void envoyerMessage(Message msg) {
 		msg.setDestinataire(this.manageable.getToCorrespondant(msg.getDestinataire()));
+		obs.hasChanged();
 		notifyObservers(msg);			
 	}
 	
@@ -55,6 +56,22 @@ public abstract class AbstractComposant implements Composant {
 	@Override
 	public boolean ICanManageThis(String str) {
 		return manageable.fromContain(str);
+	}
+
+	public Observable getObs() {
+		return obs;
+	}
+
+	public void setObs(Observable obs) {
+		this.obs = obs;
+	}
+
+	public Case getManageable() {
+		return manageable;
+	}
+
+	public void setManageable(Case manageable) {
+		this.manageable = manageable;
 	}
 	
 	

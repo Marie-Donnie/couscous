@@ -10,6 +10,7 @@ import couscous.message.Message;
 
 public abstract class AbstractConnector implements Connector {
 	private Observable obs = new Observable();
+	private ArrayList<Observer> listObs = new ArrayList<Observer>();
 	private Case manageable; // Lit ou non des ports requis
 
 	public AbstractConnector () {
@@ -19,6 +20,7 @@ public abstract class AbstractConnector implements Connector {
 	@Override
 	public void addObserver(Observer o) {
 		obs.addObserver(o);
+		listObs.add(o);
 
 	}
 
@@ -50,7 +52,10 @@ public abstract class AbstractConnector implements Connector {
 	@Override
 	public void transmettreMessage(Message msg) {
 		msg.setDestinataire(this.manageable.getToCorrespondant(msg.getDestinataire()));
-		notifyObservers(msg);			
+		//notifyObservers(msg);
+		for ( Observer obs : listObs) {
+			obs.update(this.obs,msg);
+		}
 	}
 	
 	public void addManageable(String from, String to) {
@@ -60,6 +65,22 @@ public abstract class AbstractConnector implements Connector {
 	@Override
 	public boolean ICanManageThis(String str) {
 		return manageable.fromContain(str);
+	}
+
+	public Observable getObs() {
+		return obs;
+	}
+
+	public void setObs(Observable obs) {
+		this.obs = obs;
+	}
+
+	public Case getManageable() {
+		return manageable;
+	}
+
+	public void setManageable(Case manageable) {
+		this.manageable = manageable;
 	}
 	
 	
