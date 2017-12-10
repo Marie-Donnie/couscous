@@ -29,27 +29,18 @@ public class Database extends AbstractComposant  {
 			int ret = askedOpening(message);
 			if (ret != -1) {
 				msg.setMessage(Integer.toString(ret));
-				confirmOpened(msg);
-			}
-			else {
-				msg.setMessage("Mauvais identifiant");
+
 				confirmOpened(msg);
 			}
 		}
 		if (msg.getDestinataire().equals("PortRAskedData")) {
 			try {
-				if (!message.equals("Mauvais identifiant")){
-					String ret = askedData(message);
-					msg.setMessage(ret);
-					sendData(msg);
-	            	String[] parts = ret.split("\t");
-					String id = parts[0];
-					closeData(Integer.parseInt(id));
-				}
-				else {
-					msg.setMessage("L'information n'a pas été trouvée. Essayez un autre identifiant");
-					sendData(msg);
-				}
+				String ret = askedData(message);
+				msg.setMessage(ret);
+				sendData(msg);
+            	String[] parts = ret.split("\t");
+				String id = parts[0];
+				closeData(Integer.parseInt(id));
 			}
 			catch(NumberFormatException ex) {
 				System.out.println("Le message n'a pas été correctement renvoyé");
