@@ -36,11 +36,13 @@ public abstract class AbstractConnector implements Connector {
 
 	@Override
 	public void notifyObservers(Object arg) {
+		System.out.println(" bb");
 		obs.notifyObservers(arg);
 
 	}
 	@Override
 	public void recevoirMessage(Message msg) {
+		System.out.println("Msg reçu from"+this);
 		transmettreMessage(msg);
 		
 	}

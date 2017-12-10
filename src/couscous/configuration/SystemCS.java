@@ -20,6 +20,7 @@ public class SystemCS extends AbstractConfiguration {
 	public void update(Observable o, Object arg) {
 		Message msg = (Message)arg;
 		System.out.println("Hey update");
+		System.out.println(" msg dest update : "+ msg.getDestinataire());
 		for (IObservable obs : this.getObservables()) {
 			if (obs.ICanManageThis(msg.getDestinataire())) {
 				obs.recevoirMessage(msg);
@@ -34,6 +35,7 @@ public class SystemCS extends AbstractConfiguration {
 		}
 		for (IObservable obs : this.getObservables()) {
 			if (obs.ICanManageThis(msg.getDestinataire())) {
+				System.out.println("ici on trouve l'initial");
 				obs.recevoirMessage(msg);
 			}
 		}
