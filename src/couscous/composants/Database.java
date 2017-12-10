@@ -56,6 +56,7 @@ public class Database extends AbstractComposant  {
                 if ( parts.length == 4 && parts[0].matches("^-?\\d+$") ) {
                 	if ((Integer.parseInt(parts[0]) == id)) {
                 		openData(id);
+                		// On referme le buffer avant de sortir
                         bufferedReader.close();
                 		return id;
                 	}
