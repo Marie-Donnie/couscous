@@ -24,14 +24,11 @@ public class Database extends AbstractComposant  {
 	@Override
 	public void recevoirMessage(Message msg) {
 		String message = msg.getMessage();
-		System.out.println("DataBase is dealing");
 		// Regarde si le message demande une ouverture ou les données
 		if (msg.getDestinataire().equals("PortRAskedOpening")) {
 			int ret = askedOpening(message);
-			System.out.println(" ret = "+ ret);
 			if (ret != -1) {
 				msg.setMessage(Integer.toString(ret));
-				System.out.println("Opening happening");
 
 				confirmOpened(msg);
 			}
@@ -39,7 +36,6 @@ public class Database extends AbstractComposant  {
 		if (msg.getDestinataire().equals("PortRAskedData")) {
 			try {
 				String ret = askedData(message);
-				System.out.println("retour:" + ret);
 				msg.setMessage(ret);
 				sendData(msg);
             	String[] parts = ret.split("\t");
@@ -95,13 +91,10 @@ public class Database extends AbstractComposant  {
             	String[] parts = line.split("\t");
             	// Vérification du format de base de données
                 if ( parts.length == 3 && parts[0].matches("^-?\\d+$") ) {
-                	System.out.println(nom);
                 	// On vérifie si la ligne est l'entrée qu'on cherche
                 	if (parts[1].equals(nom)) {
-                		System.out.println("là");
                 		// On récupère l'id de cette entrée
                 		int id = Integer.parseInt(parts[0]);
-                		System.out.println(id);
                 		openData(id);
                         bufferedReader.close();
                 		return id;
