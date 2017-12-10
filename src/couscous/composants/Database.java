@@ -92,7 +92,10 @@ public class Database extends AbstractComposant  {
 	}
 	
 	public void askedData(String msg) {
-		
+		if (msg.matches("^-?\\d+$")) {
+		}
+		else {
+		}
 	}
 	
 	public void askedOpening(String msg) {
