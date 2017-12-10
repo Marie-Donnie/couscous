@@ -23,6 +23,7 @@ public class Database extends AbstractComposant  {
 	@Override
 	public void recevoirMessage(Message msg) {
 		String message = msg.getMessage();
+		// Regarde si le message demande une ouverture ou les données
 		if (msg.getDestinataire().equals("PortRAskedOpening")) {
 			int ret = askedOpening(message);
 			if (ret != -1) {
