@@ -31,7 +31,9 @@ public class Database extends AbstractComposant  {
 			}
 		}
 		if (msg.getDestinataire().equals("PortRAskedData")) {
-			askedData(message);
+			String ret = askedData(message);
+			msg.setMessage(ret);
+			sendData(msg);
 		}
 
 	}
@@ -102,11 +104,38 @@ public class Database extends AbstractComposant  {
 		return (parts.length == 3 && parts[0].matches("^-?\\d+$"));
 	}
 	
-	public void askedData(String msg) {
-		if (msg.matches("^-?\\d+$")) {
+	public String askedData(String msg) {
+		int ident = Integer.parseInt(msg);
+		for (int id : ouverts) {
+			if (id == ident) {
+		        try {
+		            FileReader fileReader = new FileReader(databasePath);
+		            BufferedReader bufferedReader = new BufferedReader(fileReader);
+		            String line;
+		            while((line = bufferedReader.readLine()) != null) {
+		            	String[] parts = line.split("\t");
+		                if ( parts.length == 3 && parts[0].matches("^-?\\d+$") ) {
+		                	if (Integer.parseInt(parts[0]) == ident) {
+		    		            bufferedReader.close();
+		                		return parts[2];
+		                	}
+		                }
+		            }   
+		            bufferedReader.close();
+		        }
+		        catch(FileNotFoundException ex) {
+		            System.out.println(
+		                "Unable to open file '" 
+		                + databasePath + "'");                
+		        }
+		        catch(IOException ex) {
+		            System.out.println(
+		                "Error reading file '" 
+		                + databasePath + "'");       
+		        }
+			}
 		}
-		else {
-		}
+		return "L'identifiant n'a pas été trouvé";
 	}
 	
 	public int askedOpening(String msg) {
@@ -122,5 +151,8 @@ public class Database extends AbstractComposant  {
 		
 	}
 	
+	public void sendData(Message msg) {
+		
+	}
 
 }
