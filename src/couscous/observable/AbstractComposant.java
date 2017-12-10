@@ -1,6 +1,5 @@
 package couscous.observable;
 
-import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
 
@@ -12,6 +11,10 @@ public abstract class AbstractComposant implements Composant {
 	private Observable obs = new Observable();
 	private Case manageable; // Lit ou non des ports requis
 	
+
+	public AbstractComposant() {
+		this.manageable = new Case();
+	}
 
 	@Override
 	public void addObserver(Observer o) {

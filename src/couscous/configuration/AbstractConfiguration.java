@@ -7,7 +7,8 @@ import couscous.message.Message;
 import couscous.observable.IObservable;
 
 public abstract class AbstractConfiguration implements Configuration {
-	private ArrayList<IObservable> observables;
+	private ArrayList<IObservable> observables = new ArrayList<IObservable>();
+	
 	
 	public ArrayList<IObservable> getObservables() {
 		return observables;
