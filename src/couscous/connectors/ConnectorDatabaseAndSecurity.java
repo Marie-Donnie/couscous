@@ -2,10 +2,10 @@ package couscous.connectors;
 
 import couscous.observable.AbstractConnector;
 
-//Connector entre la BD et le géstionnaire de sécurité
+//Connector entre la BD et le gestionnaire de sÃ©curitÃ©
 public class ConnectorDatabaseAndSecurity extends AbstractConnector {
 	
-	// Rapelle à l'inverse des Composants les fournis sont à gauche et les requis à droite
+	// Rapel: Ã  l'inverse des Composants les fournis sont Ã  gauche et les requis Ã  droite
 	public ConnectorDatabaseAndSecurity () {
 		super();
 		this.addManageable("PortFRequestOpening", "PortRAskedOpening"); // Voir M1

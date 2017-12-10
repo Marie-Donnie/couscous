@@ -41,7 +41,7 @@ public abstract class AbstractComposant implements Composant {
 	
 	@Override
 	public void envoyerMessage(Message msg) {
-		msg.setDestinataire(this.manageable.getToCorespondant(msg.getDestinataire()));
+		msg.setDestinataire(this.manageable.getToCorrespondant(msg.getDestinataire()));
 		notifyObservers(msg);			
 	}
 	

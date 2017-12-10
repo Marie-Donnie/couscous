@@ -14,10 +14,10 @@ public class Case {
 		from.add(t);
 	}
 	
-	// Prend en paramètre un string de la liste from
-	// Renvoie le string de la liste to au même index
-	//Pré-conditon : f apartient à la liste from
-	public String getToCorespondant(String f) {
+	// Prend en paramÃ¨tre un string de la liste from
+	// Renvoie le string de la liste to au mÃªme indice
+	//PrÃ©-conditon : f apartient Ã  la liste from
+	public String getToCorrespondant(String f) {
 		String res ="";
 		int index = 0;
 		for (String e : from) {
@@ -30,7 +30,7 @@ public class Case {
 	}
 	
 	
-	// Dit si dans la liste de from on a bien str
+	// Retourne si dans la liste de from on a bien la string
 	public boolean fromContain(String str) {
 		boolean verdict = false;
 		

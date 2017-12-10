@@ -10,7 +10,7 @@ import couscous.message.Message;
 
 public abstract class AbstractConnector implements Connector {
 	private Observable obs = new Observable();
-	private Case manageable; // Lié ou non des ports requis
+	private Case manageable; // Lit ou non des ports requis
 
 	@Override
 	public void addObserver(Observer o) {
@@ -43,7 +43,7 @@ public abstract class AbstractConnector implements Connector {
 	
 	@Override
 	public void transmettreMessage(Message msg) {
-		msg.setDestinataire(this.manageable.getToCorespondant(msg.getDestinataire()));
+		msg.setDestinataire(this.manageable.getToCorrespondant(msg.getDestinataire()));
 		notifyObservers(msg);			
 	}
 	

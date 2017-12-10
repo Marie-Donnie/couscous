@@ -14,7 +14,7 @@ public class GestionnaireSecurite extends AbstractComposant  {
 	}
 	
 	
-	// Vérifie si on a le bon mdp
+	// VÃ©rifie si on a le bon mot de passe
 	@Override
 	public void recevoirMessage(Message msg) {
 		try {

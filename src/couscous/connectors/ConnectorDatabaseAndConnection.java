@@ -5,7 +5,7 @@ import couscous.observable.AbstractConnector;
 public class ConnectorDatabaseAndConnection extends AbstractConnector {
 	
 
-	// Rapelle à l'inverse des Composants les fournis sont à gauche et les requis à droite
+	// Rapel : Ã  l'inverse des Composants les fournis sont Ã  gauche et les requis Ã  droite
 	public ConnectorDatabaseAndConnection() {
 		super();
 		this.addManageable("PortFAskData", "PortRAskedData"); // Voir M1
