@@ -41,9 +41,12 @@ public class Main {
 		systemSD.addObservable(connectorDataCo);
 		systemSD.addObservable(connectorDataSecu);
 		systemSD.addObservable(connectorSecuCo);
-				
+		
+		
+		
 		Message msg = new Message("Initial", "tutu","0010042");
 		systemCS.ApiRequest(msg);
+		System.out.println("bindingTResuqs : "+ bindingTRequest.getObs().countObservers());
 		 System.out.println("Fini éxé");
 		
 

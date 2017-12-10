@@ -20,7 +20,7 @@ public class Client extends AbstractComposant {
 	@Override
 	public void recevoirMessage(Message msg) {
 		if (msg.getDestinataire() == "PortFinalReponse") {
-			System.out.println(msg.getMessage());
+			System.out.println("Ladies and gentlemen the response is : "+msg.getMessage());
 		}else {
 			envoyerMessage(msg);
 		}	

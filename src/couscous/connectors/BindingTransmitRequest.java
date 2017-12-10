@@ -8,6 +8,7 @@ public class BindingTransmitRequest extends AbstractConnector {
 	public BindingTransmitRequest() {
 		super();
 		this.addManageable("PortTransmitRequest", "PortReceiveRequestIntoDetail"); // Pas dans le M1
+		this.addManageable("PortFSendBackData","PortReponseFromDetail");
 		this.addManageable("PortReponseFromDetail", "PortReceiveResponse");
 	}
 

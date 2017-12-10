@@ -7,7 +7,7 @@ public class Server extends AbstractComposant {
 
 	public Server() {
 		super();
-		this.addManageable("PortReceiveReponse", "PortTransmitReponse"); // Voir M1
+		this.addManageable("PortReceiveResponse", "PortTransmitReponse"); // Voir M1
 		this.addManageable("PortReceiveRequest", "PortTransmitRequest");
 	}
 	

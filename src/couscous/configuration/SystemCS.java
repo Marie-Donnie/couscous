@@ -21,6 +21,7 @@ public class SystemCS extends AbstractConfiguration {
 		Message msg = (Message)arg;
 		System.out.println("Hey update CS");
 		System.out.println(" msg dest update : "+ msg.getDestinataire());
+		System.out.println("msg content : "+ msg.getMessage());
 		for (IObservable obs : this.getObservables()) {
 			if (obs.ICanManageThis(msg.getDestinataire())) {
 				obs.recevoirMessage(msg);
