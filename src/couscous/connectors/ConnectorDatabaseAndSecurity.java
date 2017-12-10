@@ -9,7 +9,7 @@ public class ConnectorDatabaseAndSecurity extends AbstractConnector {
 	public ConnectorDatabaseAndSecurity () {
 		super();
 		this.addManageable("PortFRequestOpening", "PortRAskedOpening"); // Voir M1
-		this.addManageable("PortSendRequest", "PortRDataReady");
+		this.addManageable("PortFConfirmOpened", "PortRDataReady");
 	}
 
 }
