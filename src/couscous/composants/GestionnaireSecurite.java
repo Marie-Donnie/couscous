@@ -17,16 +17,12 @@ public class GestionnaireSecurite extends AbstractComposant  {
 	// Vérifie si on a le bon mot de passe
 	@Override
 	public void recevoirMessage(Message msg) {
-		try {
 			if (!msg.getMdp().equals(mdpExpected)) {
-				throw new Exception();
+				System.out.println("Mot de passe erroné " + msg.getMdp());
 			}
-			envoyerMessage(msg);
-		} catch (Exception e) {
-			System.out.println("Mot de passe erroné " + msg.getMdp());
-			e.printStackTrace();
-		}
-		
+			else {
+				envoyerMessage(msg);		
+			}
 	}
 	
 	
