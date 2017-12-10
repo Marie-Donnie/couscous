@@ -37,13 +37,14 @@ public class Database extends AbstractComposant  {
 			}
 		}
 		if (msg.getDestinataire().equals("PortRAskedData")) {
-			// Le message envoyé est normalement un int
 			try {
 				String ret = askedData(message);
 				System.out.println("retour:" + ret);
 				msg.setMessage(ret);
 				sendData(msg);
-				closeData((Integer)Integer.parseInt(ret));
+            	String[] parts = ret.split("\t");
+				String id = parts[0];
+				closeData(Integer.parseInt(id));
 			}
 			catch(NumberFormatException ex) {
 				System.out.println("Le message n'a pas été correctement renvoyé");
@@ -140,7 +141,7 @@ public class Database extends AbstractComposant  {
 		                if ( parts.length == 3 && parts[0].matches("^-?\\d+$") ) {
 		                	if (Integer.parseInt(parts[0]) == ident) {
 		    		            bufferedReader.close();
-		                		return parts[2];
+		                		return (parts[0] + "\tNom : " + parts[1] + "\tInformation : " + parts[2]);
 		                	}
 		                }
 		            }   
