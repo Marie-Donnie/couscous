@@ -19,7 +19,7 @@ public class SystemCS extends AbstractConfiguration {
 	@Override
 	public void update(Observable o, Object arg) {
 		Message msg = (Message)arg;
-		System.out.println("Hey update");
+		System.out.println("Hey update CS");
 		System.out.println(" msg dest update : "+ msg.getDestinataire());
 		for (IObservable obs : this.getObservables()) {
 			if (obs.ICanManageThis(msg.getDestinataire())) {

@@ -31,6 +31,7 @@ public class Main {
 		systemCS.addObservable(serv);
 		systemCS.addObservable(bindingCsClient);
 		systemCS.addObservable(rpc);
+		systemCS.addObservable(bindingTRequest);
 		
 		
 		systemSD.addObservable(CoManager);
