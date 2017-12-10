@@ -53,7 +53,9 @@ public class Database extends AbstractComposant  {
             String line;
             while((line = bufferedReader.readLine()) != null) {
             	String[] parts = line.split("\t");
-                if ( parts.length == 4 && parts[0].matches("^-?\\d+$") ) {
+            	// Vérification du format de base de données
+                if ( parts.length == 3 && parts[0].matches("^-?\\d+$") ) {
+                	// On vérifie si la ligne est l'entrée qu'on cherche
                 	if ((Integer.parseInt(parts[0]) == id)) {
                 		openData(id);
                 		// On referme le buffer avant de sortir
@@ -84,8 +86,11 @@ public class Database extends AbstractComposant  {
             String line;
             while((line = bufferedReader.readLine()) != null) {
             	String[] parts = line.split("\t");
+            	// Vérification du format de base de données
                 if ( parts.length == 3 && parts[0].matches("^-?\\d+$") ) {
+                	// On vérifie si la ligne est l'entrée qu'on cherche
                 	if (parts[1].equals("nom")) {
+                		// On récupère l'id de cette entrée
                 		int id = Integer.parseInt(parts[0]);
                 		openData(id);
                         bufferedReader.close();
