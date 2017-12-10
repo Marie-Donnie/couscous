@@ -19,8 +19,11 @@ public class SystemServerDetail extends AbstractConfiguration {
 	@Override
 	public void update(Observable o, Object arg) {
 		Message msg = (Message)arg;
-		System.out.println("Hey update Detail");
-		System.out.println(" msg dest update : "+ msg.getDestinataire());
+		
+		//Garder en commentaire car utiles pour vérifier par ou on passe 
+
+		//System.out.println("Hey update Detail");
+		//System.out.println(" msg dest update : "+ msg.getDestinataire());
 		for (IObservable obs : this.getObservables()) {
 			if (obs.ICanManageThis(msg.getDestinataire())) {
 				obs.recevoirMessage(msg);

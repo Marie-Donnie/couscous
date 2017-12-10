@@ -52,7 +52,6 @@ public abstract class AbstractConnector implements Connector {
 	public void transmettreMessage(Message msg) {
 		msg.setDestinataire(this.manageable.getToCorrespondant(msg.getDestinataire()));
 		//notifyObservers(msg);
-		System.out.println("d");
 		for ( Observer obs : listObs) {
 			obs.update(this.obs,msg);
 		}

@@ -45,9 +45,13 @@ public class Main {
 		
 		
 		Message msg = new Message("Initial", "2","0010042");
+		Message msg2 = new Message("Initial", "tutu","0010042");
 		systemCS.ApiRequest(msg);
-		System.out.println("bindingTResuqs : "+ bindingTRequest.getObs().countObservers());
-		 System.out.println("Fini �x�");
+		systemCS.ApiRequest(msg2);
+		
+		
+		
+		 System.out.println("Fini programme");
 		
 
 	}

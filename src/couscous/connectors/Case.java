@@ -37,7 +37,6 @@ public class Case {
 		for ( String e : from) {
 			if(e == str) {
 				verdict = true;
-				System.out.println("Trouver " + e);
 			}
 		}
 		
