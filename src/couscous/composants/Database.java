@@ -35,6 +35,7 @@ public class Database extends AbstractComposant  {
 			String ret = askedData(message);
 			msg.setMessage(ret);
 			sendData(msg);
+			closeData((Integer)Integer.parseInt(ret));
 		}
 
 	}
@@ -48,7 +49,7 @@ public class Database extends AbstractComposant  {
             	String[] parts = line.split("\t");
                 if ( parts.length == 4 && parts[0].matches("^-?\\d+$") ) {
                 	if ((Integer.parseInt(parts[0]) == id)) {
-                		ouverts.add(id);
+                		openData(id);
                         bufferedReader.close();
                 		return id;
                 	}
@@ -79,7 +80,7 @@ public class Database extends AbstractComposant  {
                 if ( parts.length == 3 && parts[0].matches("^-?\\d+$") ) {
                 	if (parts[1].equals("nom")) {
                 		int id = Integer.parseInt(parts[0]);
-                		ouverts.add(id);
+                		openData(id);
                         bufferedReader.close();
                 		return id;
                 	}
@@ -154,6 +155,14 @@ public class Database extends AbstractComposant  {
 	
 	public void sendData(Message msg) {
 		envoyerMessage(msg);
+	}
+	
+	public void openData(int id) {
+		ouverts.add(id);
+	}
+	
+	public void closeData(Integer id) {
+		ouverts.remove(id);
 	}
 
 }
