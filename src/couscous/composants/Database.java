@@ -148,11 +148,11 @@ public class Database extends AbstractComposant  {
 	}
 	
 	public void confirmOpened(Message msg) {
-		
+		envoyerMessage(msg);
 	}
 	
 	public void sendData(Message msg) {
-		
+		envoyerMessage(msg);
 	}
 
 }
