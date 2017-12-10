@@ -20,7 +20,7 @@ public class Main {
 		
 		systemSD.addObservable(db);
 		
-		Message msg = new Message("Database", "tutu","0010042");
+		Message msg = new Message("Initial", "tutu","0010042");
 		db.recevoirMessage(msg);
 		
 		

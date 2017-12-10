@@ -19,19 +19,19 @@ public class SystemCS extends AbstractConfiguration {
 	@Override
 	public void update(Observable o, Object arg) {
 		Message msg = (Message)arg;
-		Boolean trouver = false;
+		
+		// if msg.destinataire = initial alors on configure
+		if (msg.getDestinataire() == "initial") {
+			msg.setDestinataire("PortAskClient");
+			this.update(o,msg);
+		}
 		
 		for (IObservable obs : this.getObservables()) {
 			if (obs.ICanManageThis(msg.getDestinataire())) {
-				trouver = true;
 				obs.recevoirMessage(msg);
 			}
 		}
 		
-		//Si trouver = false alors c'est le message initial et on configue le déstinataire en conséquence
-		if( trouver == false) {
-			msg.setDestinataire("PortAskClient");
-			this.update(o, msg);
-		}
+				
 	}
 }
