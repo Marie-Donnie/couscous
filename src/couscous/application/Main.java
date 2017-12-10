@@ -45,7 +45,7 @@ public class Main {
 		
 		
 		Message msg = new Message("Initial", "2","0010042");
-		Message msg2 = new Message("Initial", "tutu","0010042");
+		Message msg2 = new Message("Initial", "zob","0010042");
 		systemCS.ApiRequest(msg);
 		systemCS.ApiRequest(msg2);
 		
