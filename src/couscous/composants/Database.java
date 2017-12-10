@@ -21,33 +21,42 @@ public class Database extends AbstractComposant  {
 		this.addManageable("PortRAskedOpening", "PortFConfirmOpened"); // Security Manager
 	}
 	
-	@Override
-	public void recevoirMessage(Message msg) {
-		String message = msg.getMessage();
-		// Regarde si le message demande une ouverture ou les donnÃ©es
-		if (msg.getDestinataire().equals("PortRAskedOpening")) {
-			int ret = askedOpening(message);
-			if (ret != -1) {
-				msg.setMessage(Integer.toString(ret));
+	 @Override
+	    public void recevoirMessage(Message msg) {
+	        String message = msg.getMessage();
+	        // Regarde si le message demande une ouverture ou les données
+	        if (msg.getDestinataire().equals("PortRAskedOpening")) {
+	            int ret = askedOpening(message);
+	            if (ret != -1) {
+	                msg.setMessage(Integer.toString(ret));
+	                confirmOpened(msg);
+	            }
+	            else {
+	                msg.setMessage("Mauvais identifiant");
+	                confirmOpened(msg);
+	            }
+	        }
+	        if (msg.getDestinataire().equals("PortRAskedData")) {
+	            try {
+	                if (!message.equals("Mauvais identifiant")){
+	                    String ret = askedData(message);
+	                    msg.setMessage(ret);
+	                    sendData(msg);
+	                    String[] parts = ret.split("\t");
+	                    String id = parts[0];
+	                    closeData(Integer.parseInt(id));
+	                }
+	                else {
+	                    msg.setMessage("L'information n'a pas été trouvée. Essayez un autre identifiant");
+	                    sendData(msg);
+	                }
+	            }
+	            catch(NumberFormatException ex) {
+	                System.out.println("Le message n'a pas été correctement renvoyé");
+	            }
+	        }
 
-				confirmOpened(msg);
-			}
-		}
-		if (msg.getDestinataire().equals("PortRAskedData")) {
-			try {
-				String ret = askedData(message);
-				msg.setMessage(ret);
-				sendData(msg);
-            	String[] parts = ret.split("\t");
-				String id = parts[0];
-				closeData(Integer.parseInt(id));
-			}
-			catch(NumberFormatException ex) {
-				System.out.println("Le message n'a pas Ã©tÃ© correctement renvoyÃ©");
-			}
-		}
-
-	}
+	    }
 		
 	public int openLineById(int id) {
         try {
