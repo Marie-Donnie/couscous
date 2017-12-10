@@ -22,8 +22,12 @@ public class Database extends AbstractComposant  {
 	
 	@Override
 	public void recevoirMessage(Message msg) {
+		String message = msg.getMessage();
+		if (msg.getDestinataire().equals("PortRAskedOpening")) {
+			askedOpening(message);
+		}
 		if (msg.getDestinataire().equals("PortRAskedData")) {
-			askedData(msg.getMessage());
+			askedData(message);
 		}
 
 	}
@@ -88,6 +92,10 @@ public class Database extends AbstractComposant  {
 	}
 	
 	public void askedData(String msg) {
+		
+	}
+	
+	public void askedOpening(String msg) {
 		if (msg.matches("^-?\\d+$")) {
 			openLineById(Integer.parseInt(msg));
 		}
