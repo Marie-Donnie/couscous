@@ -42,7 +42,7 @@ public class Main {
 		systemSD.addObservable(connectorSecuCo);
 		
 		Message msg = new Message("Initial", "tutu","0010042");
-		db.recevoirMessage(msg);
+		systemCS.ApiRequest(msg);
 		 System.out.println("Fini éxé");
 		
 

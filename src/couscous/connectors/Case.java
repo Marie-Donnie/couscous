@@ -11,7 +11,7 @@ public class Case {
 	// Add un couple dans from et to
 	public void addCouple(String f, String t) {
 		from.add(f);
-		from.add(t);
+		to.add(t);
 	}
 	
 	// Prend en paramètre un string de la liste from
@@ -24,6 +24,7 @@ public class Case {
 			if(e==f) {
 				index =from.indexOf(e);
 				res = to.get(index);
+				System.out.println(res + "11");
 			}
 		}
 		return res;
@@ -37,6 +38,7 @@ public class Case {
 		for ( String e : from) {
 			if(e == str) {
 				verdict = true;
+				System.out.println("Trouver " + e);
 			}
 		}
 		

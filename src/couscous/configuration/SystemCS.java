@@ -19,19 +19,24 @@ public class SystemCS extends AbstractConfiguration {
 	@Override
 	public void update(Observable o, Object arg) {
 		Message msg = (Message)arg;
-		
-		// if msg.destinataire = initial alors on configure
-		if (msg.getDestinataire() == "initial") {
-			msg.setDestinataire("PortAskClient");
-			this.update(o,msg);
-		}
-		
+		System.out.println("Hey update");
 		for (IObservable obs : this.getObservables()) {
 			if (obs.ICanManageThis(msg.getDestinataire())) {
 				obs.recevoirMessage(msg);
 			}
 		}
 		
-				
+	}
+	
+	public void ApiRequest(Message msg) {
+		if (msg.getDestinataire() == "Initial") {
+			msg.setDestinataire("PortAskClient");
+		}
+		for (IObservable obs : this.getObservables()) {
+			if (obs.ICanManageThis(msg.getDestinataire())) {
+				obs.recevoirMessage(msg);
+			}
+		}
+		
 	}
 }
