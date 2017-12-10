@@ -24,7 +24,11 @@ public class Database extends AbstractComposant  {
 	public void recevoirMessage(Message msg) {
 		String message = msg.getMessage();
 		if (msg.getDestinataire().equals("PortRAskedOpening")) {
-			askedOpening(message);
+			int ret = askedOpening(message);
+			if (ret != -1) {
+				msg.setMessage(Integer.toString(ret));
+				confirmOpened(msg);
+			}
 		}
 		if (msg.getDestinataire().equals("PortRAskedData")) {
 			askedData(message);
@@ -32,7 +36,7 @@ public class Database extends AbstractComposant  {
 
 	}
 		
-	public void openLineById(int id) {
+	public int openLineById(int id) {
         try {
             FileReader fileReader = new FileReader(databasePath);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
@@ -42,6 +46,8 @@ public class Database extends AbstractComposant  {
                 if ( parts.length == 4 && parts[0].matches("^-?\\d+$") ) {
                 	if ((Integer.parseInt(parts[0]) == id)) {
                 		ouverts.add(id);
+                        bufferedReader.close();
+                		return id;
                 	}
                 }
             }   
@@ -57,9 +63,10 @@ public class Database extends AbstractComposant  {
                 "Error reading file '" 
                 + databasePath + "'");       
         }
+        return -1;
 	}
 	
-	public void openLineByString(String nom) {
+	public int openLineByString(String nom) {
         try {
             FileReader fileReader = new FileReader(databasePath);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
@@ -68,7 +75,10 @@ public class Database extends AbstractComposant  {
             	String[] parts = line.split("\t");
                 if ( parts.length == 3 && parts[0].matches("^-?\\d+$") ) {
                 	if (parts[1].equals("nom")) {
-                		ouverts.add(Integer.parseInt(parts[0]));
+                		int id = Integer.parseInt(parts[0]);
+                		ouverts.add(id);
+                        bufferedReader.close();
+                		return id;
                 	}
                 }
             }   
@@ -84,6 +94,7 @@ public class Database extends AbstractComposant  {
                 "Error reading file '" 
                 + databasePath + "'");       
         }
+        return -1;
 	}
 	
 	public boolean checkline(String ligne) {
@@ -98,13 +109,17 @@ public class Database extends AbstractComposant  {
 		}
 	}
 	
-	public void askedOpening(String msg) {
+	public int askedOpening(String msg) {
 		if (msg.matches("^-?\\d+$")) {
-			openLineById(Integer.parseInt(msg));
+			return (openLineById(Integer.parseInt(msg)));
 		}
 		else {
-			openLineByString(msg);
-		}		
+			return (openLineByString(msg));
+		}
+	}
+	
+	public void confirmOpened(Message msg) {
+		
 	}
 	
 
