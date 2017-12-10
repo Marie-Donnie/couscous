@@ -42,16 +42,17 @@ public class Main {
 		systemSD.addObservable(connectorDataSecu);
 		systemSD.addObservable(connectorSecuCo);
 		
+		Message message = cl.demanderDonnee();
+		systemCS.ApiRequest(message);
+		
+		//Message msg = new Message("Initial", "2","0010042");
+		//Message msg2 = new Message("Initial", "zob","0010042");
+		//systemCS.ApiRequest(msg);
+		//systemCS.ApiRequest(msg2);
 		
 		
-		Message msg = new Message("Initial", "2","0010042");
-		Message msg2 = new Message("Initial", "zob","0010042");
-		systemCS.ApiRequest(msg);
-		systemCS.ApiRequest(msg2);
 		
-		
-		
-		 System.out.println("Fini programme");
+		 System.out.println("Fin programme");
 		
 
 	}

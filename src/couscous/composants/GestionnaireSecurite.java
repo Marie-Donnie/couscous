@@ -18,11 +18,12 @@ public class GestionnaireSecurite extends AbstractComposant  {
 	@Override
 	public void recevoirMessage(Message msg) {
 		try {
-			if (msg.getMdp()!= mdpExpected) {
+			if (!msg.getMdp().equals(mdpExpected)) {
 				throw new Exception();
 			}
 			envoyerMessage(msg);
 		} catch (Exception e) {
+			System.out.println("Mot de passe erroné " + msg.getMdp());
 			e.printStackTrace();
 		}
 		

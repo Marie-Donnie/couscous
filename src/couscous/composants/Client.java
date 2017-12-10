@@ -41,7 +41,7 @@ public class Client extends AbstractComposant {
 			System.out.println("Mauvais format.");
 			e.printStackTrace();
 		}
-        System.out.print("Mot de passe ?");
+        System.out.println("Mot de passe ? (0010042)");
         try{
             mdp = br.readLine();
         }catch(IOException e){
