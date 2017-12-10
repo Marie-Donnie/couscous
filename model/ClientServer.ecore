@@ -14,7 +14,8 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="client" upperBound="-1"
         eType="#//Client" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="portcs" eType="#//PortCS"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rpc" eType="#//RPC" eOpposite="#//RPC/systemcs"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rpc" upperBound="-1" eType="#//RPC"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="PortClient" eSuperTypes="couscous.ecore#//PortComposant"/>
   <eClassifiers xsi:type="ecore:EClass" name="PortAskClient" eSuperTypes="couscous.ecore#//PortFConfiguration #//PortCS">
@@ -25,8 +26,6 @@
         eOpposite="#//PortReceiveAsk/bindingaskclient"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RPC" eSuperTypes="couscous.ecore#//Connecteur">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="systemcs" eType="#//SystemCS"
-        eOpposite="#//SystemCS/rpc"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="interfacerrpc" eType="#//InterfaceRRPC"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="interfacefrpc" eType="#//InterfaceFRPC"/>
   </eClassifiers>
@@ -88,12 +87,10 @@
   <eClassifiers xsi:type="ecore:EClass" name="BindingTransmitRequest" eSuperTypes="couscous.ecore#//BindingCompoToConfig">
     <eStructuralFeatures xsi:type="ecore:EReference" name="porttransmitrequest" eType="#//PortTransmitRequest"
         eOpposite="#//PortTransmitRequest/bindingtransmitrequest"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="systemserverdetail" eType="#//SystemServerDetail"
-        eOpposite="#//SystemServerDetail/bindingtransmitrequest"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="porttransmitrequestsd"
+        eType="#//PortTransmitRequestSD" eOpposite="#//PortTransmitRequestSD/bindingtransmitrequest"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="SystemServerDetail" eSuperTypes="couscous.ecore#//Configuration">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="bindingtransmitrequest"
-        eType="#//BindingTransmitRequest" eOpposite="#//BindingTransmitRequest/systemserverdetail"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="connectionmanager" upperBound="-1"
         eType="#//ConnectionManager" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="securitymanager" upperBound="-1"
@@ -113,6 +110,8 @@
         eType="#//ConnectionToSecurity" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="connectiontodatabase" upperBound="-1"
         eType="#//ConnectionToDatabase" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="porttransmitrequestsd"
+        eType="#//PortTransmitRequestSD" eOpposite="#//PortTransmitRequestSD/systemserverdetail"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ConnectionManager" eSuperTypes="couscous.ecore#//Composant">
     <eStructuralFeatures xsi:type="ecore:EReference" name="portconnectionmanager"
@@ -133,12 +132,12 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="porttomanager" eType="#//PortToManager"
         eOpposite="#//PortToManager/bindingrequestmanager"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="portreceiverequestfsystem"
-        eType="#//PortReceiveRequestFSystem" eOpposite="#//PortReceiveRequestFSystem/bindingrequestmanager"/>
+        eType="#//PortRReceiveRequestIntoDetail" eOpposite="#//PortRReceiveRequestIntoDetail/bindingrequestmanager"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="PortConnectionManager" eSuperTypes="couscous.ecore#//PortComposant"/>
   <eClassifiers xsi:type="ecore:EClass" name="PortSecurityManager" eSuperTypes="couscous.ecore#//PortComposant"/>
   <eClassifiers xsi:type="ecore:EClass" name="PortDatabase" eSuperTypes="couscous.ecore#//PortComposant"/>
-  <eClassifiers xsi:type="ecore:EClass" name="PortReceiveRequestFSystem" eSuperTypes="couscous.ecore#//PortRComposant #//PortConnectionManager">
+  <eClassifiers xsi:type="ecore:EClass" name="PortRReceiveRequestIntoDetail" eSuperTypes="couscous.ecore#//PortRComposant #//PortConnectionManager">
     <eStructuralFeatures xsi:type="ecore:EReference" name="bindingrequestmanager"
         eType="#//BindingRequestManager" eOpposite="#//BindingRequestManager/portreceiverequestfsystem"/>
   </eClassifiers>
@@ -467,5 +466,11 @@
         eOpposite="#//RoleFCtD/attachementrtofdtc"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="portrreceivedata" eType="#//PortRReceiveData"
         eOpposite="#//PortRReceiveData/attachementrtofctd"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PortTransmitRequestSD" eSuperTypes="couscous.ecore#//PortComposant">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bindingtransmitrequest"
+        eType="#//BindingTransmitRequest" eOpposite="#//BindingTransmitRequest/porttransmitrequestsd"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="systemserverdetail" eType="#//SystemServerDetail"
+        eOpposite="#//SystemServerDetail/porttransmitrequestsd"/>
   </eClassifiers>
 </ecore:EPackage>
