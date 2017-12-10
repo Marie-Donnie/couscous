@@ -40,6 +40,7 @@ public class Database extends AbstractComposant  {
 			// Le message envoyé est normalement un int
 			try {
 				String ret = askedData(message);
+				System.out.println("retour:" + ret);
 				msg.setMessage(ret);
 				sendData(msg);
 				closeData((Integer)Integer.parseInt(ret));
